@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-const catalogo: NextPage = () => {
+const Catalogo: NextPage = () => {
     return (
         <div>
             Hola Catalogo
@@ -17,4 +17,4 @@ const catalogo: NextPage = () => {
     );
 };
 
-export default catalogo;
+export default Catalogo;
