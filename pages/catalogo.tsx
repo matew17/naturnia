@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-const Home: NextPage = () => {
+const catalogo: NextPage = () => {
     return (
         <div>
-            Hola Nextjs
+            Hola Catalogo
             {/* <Head>
                 <title>Create Next App</title>
                 <meta
@@ -17,4 +17,4 @@ const Home: NextPage = () => {
     );
 };
 
-export default Home;
+export default catalogo;
