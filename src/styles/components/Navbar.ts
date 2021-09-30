@@ -15,7 +15,7 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
     padding: 8px 0;
 
     .menu {
-        flex: 0.25;
+        flex: 0.3;
         padding: 0 16px;
         display: flex;
         justify-content: flex-start;
@@ -61,7 +61,7 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
     }
 
     .menu-logo {
-        flex: 0.5;
+        flex: 0.4;
         display: flex;
         justify-content: center;
         cursor: pointer;
