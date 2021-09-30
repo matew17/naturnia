@@ -1,4 +1,4 @@
-import { NavbarStyled } from '../styles/components/Navbar';
+import { NavbarStyled } from '@styles/components/Navbar';
 
 export default function Navbar() {
     return (
