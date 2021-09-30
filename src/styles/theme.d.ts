@@ -1,7 +1,8 @@
-import 'styled-components';
+import "styled-components";
 
 interface Colors {
     black: string;
+    blackAlpha: string;
     green: string;
     greenDarken: string;
     greenLighten: string;
@@ -20,7 +21,7 @@ interface Colors {
     yellowLighten: string;
 }
 
-declare module 'styled-components' {
+declare module "styled-components" {
     export interface DefaultTheme {
         colors: Colors;
     }

@@ -7,9 +7,9 @@ export default function Layout({ children }: any) {
         <>
             <Navbar />
             <main>{children}</main>
-            <Footer />
 
             <WhatsApp width={60} height={60} />
+            {/* <Footer /> */}
         </>
     );
 }
