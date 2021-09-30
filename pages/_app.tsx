@@ -1,14 +1,16 @@
-import type { AppProps } from "next/app";
+import type { AppProps } from 'next/app';
+import { ThemeProvider } from 'styled-components';
 
-import Layout from "../components/layout";
+import '@styles/styles.scss';
+import { defaultTheme } from '@styles/theme';
+import Layout from '@components/layout';
 
-import "../styles/styles.scss";
-
-function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps) {
     return (
-        <Layout>
-            <Component {...pageProps} />
-        </Layout>
+        <ThemeProvider theme={defaultTheme}>
+            <Layout>
+                <Component {...pageProps} />
+            </Layout>
+        </ThemeProvider>
     );
 }
-export default MyApp;

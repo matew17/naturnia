@@ -1,10 +1,10 @@
-const navbar: React.FC = () => {
+import { NavbarStyled } from '../styles/components/Navbar';
+
+export default function Navbar() {
     return (
-        <nav>
+        <NavbarStyled>
             <div>Social Networks</div>
             <div>Menu</div>
-        </nav>
+        </NavbarStyled>
     );
 };
-
-export default navbar;
