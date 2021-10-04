@@ -118,7 +118,7 @@ export const ResetStyle = createGlobalStyle`
 
     a {
         cursor: pointer;
-        background: colors("transparent");
+        background: ${colors("transparent")};
         margin: 0;
         padding: 0;
         text-decoration: none;
