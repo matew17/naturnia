@@ -1,4 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
+
+import { colors } from "./abstracts/functions";
 
 export const ResetStyle = createGlobalStyle`
     /**
@@ -76,7 +78,7 @@ export const ResetStyle = createGlobalStyle`
     mark,
     audio,
     video {
-        background: colors("transparent");
+        background: ${colors("transparent")};
         border: 0;
         margin: 0;
         outline: 0;

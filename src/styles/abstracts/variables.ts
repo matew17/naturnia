@@ -1,9 +1,9 @@
 export const devices: { [key: string]: string } = {
-    'iphone-five': '374px',
-    'x-small': '480px',
-    small: '588px',
-    medium: '768px',
-    large: '1200px',
+    "iphone-five": "374px",
+    "x-small": "480px",
+    small: "588px",
+    medium: "768px",
+    large: "1200px",
 };
 
 // const breakpoints: (
@@ -30,24 +30,24 @@ export const devices: { [key: string]: string } = {
 // );
 
 export const colors: { [key: string]: string } = {
-    black: '#000',
-    blackAlpha: 'rgba(0,0 ,0, 0.9)',
-    green: '#C0BD07',
-    greenDarken: '#5B571C',
-    greenLighten: '#F3E62A',
-    orange: '#C05217',
-    orangeDarken: '#8E3F14',
-    orangeLighten: '#F18B16',
-    pink: '#AE6680',
-    pinkDarken: '#681E4B',
-    pinkLighten: '#CD8CA6',
-    red: '#904439',
-    redDarken: '#551621',
-    redLighten: '#EEAD79',
-    white: '#FFF',
-    yellow: '#EEA100',
-    yellowDarken: '#DAAB03',
-    yellowLighten: '#F8EB9B',
+    black: "#000",
+    blackAlpha: "rgba(0,0 ,0, 0.9)",
+    green: "#C0BD07",
+    greenDarken: "#5B571C",
+    greenLighten: "#F3E62A",
+    orange: "#C05217",
+    orangeDarken: "#8E3F14",
+    orangeLighten: "#F18B16",
+    pink: "#AE6680",
+    pinkDarken: "#681E4B",
+    pinkLighten: "#CD8CA6",
+    red: "#904439",
+    redDarken: "#551621",
+    redLighten: "#EEAD79",
+    white: "#FFF",
+    yellow: "#EEA100",
+    yellowDarken: "#DAAB03",
+    yellowLighten: "#F8EB9B",
 };
 
 export const zindex: { [key: string]: number } = {
@@ -56,5 +56,5 @@ export const zindex: { [key: string]: number } = {
     overlay: 3,
     modal: 4,
     toast: 5,
-    'modal-overlay': 10100,
+    "modal-overlay": 10100,
 };

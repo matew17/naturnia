@@ -1,4 +1,4 @@
-import { colors as appColors, zindex as appZindex } from './variables';
+import { colors as appColors, zindex as appZindex } from "./variables";
 
 export function calculateRem(size: number, baseSize = 20) {
     const remSize = size / baseSize;
@@ -7,7 +7,7 @@ export function calculateRem(size: number, baseSize = 20) {
 }
 
 export function colors(color: string) {
-    if (!appColors[color]) throw new Error(`No color found for ${color}`);
+    if (!appColors[color]) return color;
 
     return appColors[color];
 }
