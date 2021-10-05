@@ -18,7 +18,7 @@ const Home: NextPage = () => {
                     name="Bienvenidos a  Naturnia.com"
                     content="Sitio oficial de Naturnia.com"
                 />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon.png" />
             </Head>
 
             <section className="carousel">
