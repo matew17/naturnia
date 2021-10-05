@@ -81,7 +81,7 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
         }
 
         .menu {
-            flex: 0.2;
+            flex: 0.4;
 
             &__ig {
                 flex: 1;
@@ -92,6 +92,10 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
 
         .menu-logo {
             flex: 0.6;
+
+            ul {
+                justify-content: center;
+            }
         }
     }
 `;
