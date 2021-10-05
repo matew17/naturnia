@@ -1,3 +1,4 @@
+import { down } from "styled-breakpoints";
 import styled from "styled-components";
 
 import { Font } from "@styles/abstracts/mixins";
@@ -26,6 +27,17 @@ export const SoyNaturniaStyled = styled.section<SoyNaturniaStyled>`
             align-items: center;
             justify-content: center;
             ${Font(30, 32, 0.5, 700)};
+        }
+    }
+
+    ${down("lg")} {
+        .soy {
+            flex-wrap: wrap;
+
+            &__item {
+                min-width: 100%;
+                margin: 60px 0;
+            }
         }
     }
 `;

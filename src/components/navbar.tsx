@@ -28,7 +28,7 @@ export default function Navbar() {
             <div className="menu-logo">
                 <ul>
                     <li
-                        className={`menu__items--list 
+                        className={`hiden-mobile  menu__items--list 
                                 ${
                                     router.asPath === "/catalogo" &&
                                     "menu__items--active"
@@ -46,7 +46,7 @@ export default function Navbar() {
                         </div>
                     </Link>
                     <li
-                        className={`menu__items--list 
+                        className={`hiden-mobile menu__items--list 
                                 ${
                                     router.asPath === "/soy-naturnia" &&
                                     "menu__items--active"
@@ -58,7 +58,7 @@ export default function Navbar() {
             </div>
 
             <div className="menu menu-right">
-                <div className="menu__items">
+                <div className="hiden-mobile  menu__items">
                     <ul>
                         <li className="menu__items--list">Tienda </li>
                     </ul>

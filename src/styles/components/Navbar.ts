@@ -76,8 +76,18 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
     }
 
     ${down("md")} {
+        .hiden-mobile {
+            display: none;
+        }
+
         .menu {
             flex: 0.2;
+
+            &__ig {
+                flex: 1;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
         }
 
         .menu-logo {

@@ -1,3 +1,4 @@
+import { down } from "styled-breakpoints";
 import styled from "styled-components";
 
 import { Font } from "@styles/abstracts/mixins";
@@ -71,6 +72,31 @@ export const CategoriaStyled = styled.section<CategoriaStyled>`
                 margin: 0 8px;
                 list-style: square inside;
                 ${Font(24, 28, 0.1, 500)};
+            }
+        }
+    }
+
+    ${down("lg")} {
+        height: 1300px;
+
+        flex-flow: column;
+
+        &.inverted {
+            flex-flow: column;
+        }
+
+        .info,
+        .image {
+            flex: 1;
+        }
+    }
+
+    ${down("sm")} {
+        height: 2000px;
+
+        .info {
+            &__description {
+                padding: 24px;
             }
         }
     }

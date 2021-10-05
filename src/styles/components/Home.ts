@@ -1,3 +1,4 @@
+import { down } from "styled-breakpoints";
 import styled from "styled-components";
 
 import { ThemedProps } from "../theme";
@@ -20,5 +21,11 @@ export const HomeStyled = styled.section<HomeStyled>`
         width: 100%;
         padding: 60px;
         background: ${({ theme }) => theme.colors.pantone};
+    }
+
+    ${down("sm")} {
+        .categories {
+            padding: 16px;
+        }
     }
 `;
