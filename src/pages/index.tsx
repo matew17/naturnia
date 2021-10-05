@@ -21,27 +21,27 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <section className="bg-section">
+            <section className="carousel">
                 <Carousel />
             </section>
 
-            <section className="bg-section">
+            <section className="big-section">
                 <SoyNaturnia />
             </section>
 
-            <section className="bg-section">
+            <section className="categories">
                 <Categorias />
             </section>
 
-            <section className="bg-section">
+            <section className="big-section">
                 <Asociate />
             </section>
 
-            <section className="bg-section">
+            <section className="big-section">
                 <Clientes />
             </section>
 
-            <section className="bg-section">
+            <section className="big-section">
                 <Compra />
             </section>
         </HomeStyled>

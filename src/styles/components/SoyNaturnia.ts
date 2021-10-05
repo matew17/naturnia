@@ -4,4 +4,4 @@ import { ThemedProps } from "../theme";
 
 interface SoyNaturniaStyled extends ThemedProps {}
 
-export const SoyNaturniaStyled = styled.nav<SoyNaturniaStyled>``;
+export const SoyNaturniaStyled = styled.section<SoyNaturniaStyled>``;

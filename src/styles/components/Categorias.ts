@@ -4,4 +4,6 @@ import { ThemedProps } from "../theme";
 
 interface CategoriasStyled extends ThemedProps {}
 
-export const CategoriasStyled = styled.nav<CategoriasStyled>``;
+export const CategoriasStyled = styled.section<CategoriasStyled>`
+    background: ${({ theme }) => theme.colors.white};
+`;

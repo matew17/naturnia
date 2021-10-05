@@ -1,55 +1,28 @@
-export const devices: { [key: string]: string } = {
-    "iphone-five": "374px",
-    "x-small": "480px",
-    small: "588px",
-    medium: "768px",
-    large: "1200px",
-};
-
-// const breakpoints: (
-//     x-small: (
-//         null,
-//         $x-small - 1,
-//     ),
-//     small: (
-//         $x-small,
-//         $small - 1,
-//     ),
-//     medium: (
-//         $small,
-//         $medium - 1,
-//     ),
-//     large: (
-//         $medium,
-//         $large - 1,
-//     ),
-//     x-large: (
-//         $large,
-//         null,
-//     ),
-// );
-
 export const colors: { [key: string]: string } = {
     black: "#000",
     blackAlpha: "rgba(0,0 ,0, 0.9)",
-    green: "#C0BD07",
-    greenDarken: "#5B571C",
-    greenLighten: "#F3E62A",
-    orange: "#C05217",
-    orangeDarken: "#8E3F14",
-    orangeLighten: "#F18B16",
-    pink: "#AE6680",
-    pinkDarken: "#681E4B",
-    pinkLighten: "#CD8CA6",
-    red: "#904439",
-    redDarken: "#551621",
-    redLighten: "#EEAD79",
+    pantone: "#CD8CA6",
+    pantone1: "#AE6680",
+    pantone2: "#681E4B",
+    pantone3: "#F3A70D",
+    lulo: "#F6EE8C",
+    lulo1: "#F3E62A",
+    lulo2: "#C0BD07",
+    lulo3: "#5B571C",
+    tamarindo: "#EEAD79",
+    tamarindo1: "#F9B438",
+    tamarindo2: "#904439",
+    tamarindo3: "#551621",
+    uchuva: "#F6D979",
+    uchuva1: "#F18D16",
+    uchuva2: "#C05217",
+    uchuva3: "#8E3F14",
+    araza: "#FCE584",
+    araza1: "#F0F00",
+    araza2: "#EEA100",
+    araza3: "#A75617",
     white: "#FFF",
-    yellow: "#EEA100",
-    yellowDarken: "#DAAB03",
-    yellowLighten: "#F8EB9B",
 };
-
 export const zindex: { [key: string]: number } = {
     base: 1,
     menu: 2,

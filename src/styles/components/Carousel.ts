@@ -4,4 +4,4 @@ import { ThemedProps } from "../theme";
 
 interface CarouselStyled extends ThemedProps {}
 
-export const CarouselStyled = styled.nav<CarouselStyled>``;
+export const CarouselStyled = styled.section<CarouselStyled>``;

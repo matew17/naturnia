@@ -1,4 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
+import { up, only } from "styled-breakpoints";
 
 export const GlobalStyle = createGlobalStyle`
     * {
@@ -45,11 +46,11 @@ export const GlobalStyle = createGlobalStyle`
                 text-decoration: none;
             }
 
-            @include from-breakpoint("medium") {
+            ${only("md")} {
                 font-size: 18px;
             }
 
-            @include from-breakpoint("large") {
+            ${up("lg")} {
                 font-size: 20px;
             }
         }

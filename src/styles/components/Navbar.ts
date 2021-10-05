@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { down } from "styled-breakpoints";
 
 import { ThemedProps } from "../theme";
 
@@ -12,10 +13,10 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
     justify-content: center;
     width: 100%;
     height: auto;
-    padding: 8px 0;
+    padding: 4px 0;
 
     .menu {
-        flex: 0.3;
+        flex: 0.25;
         padding: 0 16px;
         display: flex;
         justify-content: flex-start;
@@ -61,7 +62,7 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
     }
 
     .menu-logo {
-        flex: 0.4;
+        flex: 0.5;
         display: flex;
         justify-content: center;
         cursor: pointer;
@@ -70,7 +71,17 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
             display: flex;
             flex: 1;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: space-between;
+        }
+    }
+
+    ${down("md")} {
+        .menu {
+            flex: 0.2;
+        }
+
+        .menu-logo {
+            flex: 0.6;
         }
     }
 `;

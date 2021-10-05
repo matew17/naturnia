@@ -4,4 +4,4 @@ import { ThemedProps } from "../theme";
 
 interface CompraStyled extends ThemedProps {}
 
-export const CompraStyled = styled.nav<CompraStyled>``;
+export const CompraStyled = styled.section<CompraStyled>``;

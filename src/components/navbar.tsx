@@ -16,7 +16,7 @@ export default function Navbar() {
                             target="_blank"
                         >
                             <Image
-                                src="/images/ig.png"
+                                src="/images/social-net/ig.png"
                                 width="30"
                                 height="30"
                             ></Image>
@@ -39,9 +39,9 @@ export default function Navbar() {
                     <Link href="/">
                         <div>
                             <Image
-                                src="/images/logo-three-white.png"
-                                width="90"
-                                height="90"
+                                src="/images/logos/logo-white.png"
+                                width="200"
+                                height="150"
                             ></Image>
                         </div>
                     </Link>
