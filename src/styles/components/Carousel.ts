@@ -23,6 +23,8 @@ export const CarouselStyled = styled.section<CarouselStyled>`
         }
 
         &__overlay {
+            position: absolute;
+            top: 0;
             width: 100%;
             height: 100%;
             background: black;
@@ -57,6 +59,12 @@ export const CarouselStyled = styled.section<CarouselStyled>`
             &:nth-child(4) {
                 animation-delay: 18s;
             }
+        }
+
+        &__item-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
         }
      }
 

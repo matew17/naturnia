@@ -29,7 +29,9 @@ const Carousel: React.FC = () => {
                 <div className="slider__gallery">
                     {slides.map(slide => (
                         <div className="slider__item" key={slide.id}>
-                            <Image src={slide.url} alt="" layout="fill"/>
+                            <div className="slider__item-wrapper">
+                                <Image src={slide.url} alt="" layout="fill"/>
+                            </div>
                         </div>
                     ))}
                 </div>
