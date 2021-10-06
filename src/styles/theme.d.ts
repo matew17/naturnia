@@ -3,6 +3,7 @@ import "styled-components";
 interface Colors {
     black: string;
     blackAlpha: string;
+    blackLight: string;
     pantone: string;
     pantone1: string;
     pantone2: string;

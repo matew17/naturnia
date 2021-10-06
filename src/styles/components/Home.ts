@@ -6,21 +6,27 @@ import { ThemedProps } from "../theme";
 interface HomeStyled extends ThemedProps {}
 
 export const HomeStyled = styled.section<HomeStyled>`
+    .home-section {
+        width: 100%;
+        padding: 150px 60px;
+    }
+
     .carousel {
         height: 80vh;
     }
 
     .soy-naturnia {
-        width: 100%;
-        padding: 60px;
         background: ${({ theme }) => theme.colors.white};
         color: ${({ theme }) => theme.colors.pantone2};
     }
 
     .categories {
-        width: 100%;
-        padding: 60px;
         background: ${({ theme }) => theme.colors.pantone};
+    }
+
+    .asociate {
+        background: ${({ theme }) => theme.colors.white};
+        color: ${({ theme }) => theme.colors.tamarindo3};
     }
 
     ${down("sm")} {

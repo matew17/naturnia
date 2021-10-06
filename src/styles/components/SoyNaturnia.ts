@@ -12,7 +12,7 @@ export const SoyNaturniaStyled = styled.section<SoyNaturniaStyled>`
     align-items: center;
 
     h1 {
-        ${Font(40, 40, 0.5, 700)};
+        ${Font(50, 40, 0.5, 700)};
     }
 
     .soy {

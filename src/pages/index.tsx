@@ -25,23 +25,23 @@ const Home: NextPage = () => {
                 <Carousel />
             </section>
 
-            <section className="soy-naturnia">
+            <section className="home-section soy-naturnia">
                 <SoyNaturnia />
             </section>
 
-            <section className="categories">
+            <section className="home-section categories">
                 <Categorias />
             </section>
 
-            <section>
+            <section className="home-section asociate">
                 <Asociate />
             </section>
 
-            <section>
+            <section className="home-section">
                 <Clientes />
             </section>
 
-            <section>
+            <section className="home-section">
                 <Compra />
             </section>
         </HomeStyled>

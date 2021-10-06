@@ -1,6 +1,7 @@
 export const colors: { [key: string]: string } = {
     black: "#000",
-    blackAlpha: "rgba(0,0 ,0, 0.9)",
+    blackAlpha: "rgba(0,0 ,0, 0.8)",
+    blackLight: "rgba(0,0 ,0, 0.2)",
     pantone: "#CD8CA6",
     pantone1: "#AE6680",
     pantone2: "#681E4B",
@@ -18,7 +19,7 @@ export const colors: { [key: string]: string } = {
     uchuva2: "#C05217",
     uchuva3: "#8E3F14",
     araza: "#FCE584",
-    araza1: "#F0F00",
+    araza1: "#F0AF00",
     araza2: "#EEA100",
     araza3: "#A75617",
     white: "#FFF",
