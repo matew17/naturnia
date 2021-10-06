@@ -20,11 +20,12 @@ const slides = [
     },
 ];
 
-const duration = 24;
+const fadeDuration = 2;
+const visibleDuration = 4;
 
 const Carousel: React.FC = () => {
     return (
-        <CarouselStyled duration={duration} totalSlides={slides.length}>
+        <CarouselStyled fadeDuration={fadeDuration} visibleDuration={visibleDuration} totalSlides={slides.length}>
             <div className="slider" aria-hidden="true">
                 <div className="slider__gallery">
                     {slides.map(slide => (
