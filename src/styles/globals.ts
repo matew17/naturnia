@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import { up, only } from "styled-breakpoints";
+import { createGlobalStyle } from 'styled-components';
+import { up, only } from 'styled-breakpoints';
 
 export const GlobalStyle = createGlobalStyle`
     * {
@@ -46,11 +46,11 @@ export const GlobalStyle = createGlobalStyle`
                 text-decoration: none;
             }
 
-            ${only("md")} {
+            ${only('md')} {
                 font-size: 18px;
             }
 
-            ${up("lg")} {
+            ${up('lg')} {
                 font-size: 20px;
             }
         }

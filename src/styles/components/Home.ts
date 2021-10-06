@@ -7,7 +7,7 @@ interface HomeStyled extends ThemedProps {}
 
 export const HomeStyled = styled.section<HomeStyled>`
     .carousel {
-        height: 75vh;
+        height: 100vh;
     }
 
     .soy-naturnia {
