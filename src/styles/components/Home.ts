@@ -29,6 +29,11 @@ export const HomeStyled = styled.section<HomeStyled>`
         color: ${({ theme }) => theme.colors.tamarindo3};
     }
 
+    .clients {
+        background: ${({ theme }) => theme.colors.tamarindo};
+        color: ${({ theme }) => theme.colors.white};
+    }
+
     ${down("sm")} {
         .categories {
             padding: 16px;

@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                 <Asociate />
             </section>
 
-            <section className="home-section">
+            <section className="home-section clients">
                 <Clientes />
             </section>
 
