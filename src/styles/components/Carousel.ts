@@ -1,10 +1,40 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import { ThemedProps } from '../theme';
 
 interface CarouselStyled extends ThemedProps {
-    duration: number;
+    fadeDuration: number;
+    visibleDuration: number;
     totalSlides: number;
+}
+
+const Fade = (num: number, fade: number, visible: number) => {
+    const a = 100 / ((fade + visible) * num);
+
+    let childs = '';
+
+    for (let index = 1; index <= num; index++) {
+        childs += `
+            &:nth-child(${index}) {
+                animation-delay: ${(fade + visible) * (index - 1)}s;
+            }
+        `;
+    }
+
+    return css`
+        @keyframes fade {
+            0%   { opacity: 0; }
+            ${a * fade + '%'}   { opacity: 1; }
+            ${a * (fade + visible) + '%'}  { opacity: 1; }
+            ${a * (fade + visible + fade) +  '%'}  { opacity: 0; }
+            100% { opacity: 0; }
+        }
+
+        animation-name: fade;
+        animation-duration: ${((fade + visible) * num)}s;
+
+        ${childs}
+    `;
 }
 
 export const CarouselStyled = styled.section<CarouselStyled>`
@@ -39,26 +69,12 @@ export const CarouselStyled = styled.section<CarouselStyled>`
             position: absolute;
             opacity:0;
             top:0;
-            animation-name: anim_slides;
-            animation-duration: ${({ duration }) => duration }s;
             animation-timing-function: linear;
             animation-iteration-count: infinite;
             animation-duration: normal;
-            animation-delay: 0;
             animation-play-state: running;
             animation-fill-mode: forwards;
-
-            &:nth-child(2) {
-                animation-delay: 6s;
-            }
-
-            &:nth-child(3) {
-                animation-delay: 12s;
-            }
-
-            &:nth-child(4) {
-                animation-delay: 18s;
-            }
+            ${({totalSlides, fadeDuration, visibleDuration}) => Fade(totalSlides, fadeDuration, visibleDuration)}
         }
 
         &__item-wrapper {
@@ -67,22 +83,4 @@ export const CarouselStyled = styled.section<CarouselStyled>`
             height: 100%;
         }
      }
-
-    @keyframes anim_slides {
-        0% {
-            opacity: 0;
-        }
-        6% {
-            opacity: 1;
-        }
-        24% {
-            opacity: 1;
-        }
-        30% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
 `;
