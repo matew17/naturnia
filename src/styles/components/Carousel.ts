@@ -1,6 +1,7 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
-import { ThemedProps } from '../theme';
+import { ThemedProps } from "../theme";
+import { zindex } from "@styles/abstracts/functions";
 
 interface CarouselStyled extends ThemedProps {
     fadeDuration: number;
@@ -11,7 +12,7 @@ interface CarouselStyled extends ThemedProps {
 const Fade = (num: number, fade: number, visible: number) => {
     const a = 100 / ((fade + visible) * num);
 
-    let childs = '';
+    let childs = "";
 
     for (let index = 1; index <= num; index++) {
         childs += `
@@ -23,15 +24,25 @@ const Fade = (num: number, fade: number, visible: number) => {
 
     return css`
         @keyframes fade {
-            0%   { opacity: 0; }
-            ${a * fade + '%'}   { opacity: 1; }
-            ${a * (fade + visible) + '%'}  { opacity: 1; }
-            ${a * (fade + visible + fade) +  '%'}  { opacity: 0; }
-            100% { opacity: 0; }
+            0% {
+                opacity: 0;
+            }
+            ${a * fade + "%"} {
+                opacity: 1;
+            }
+            ${a * (fade + visible) + "%"} {
+                opacity: 1;
+            }
+            ${a * (fade + visible + fade) + "%"} {
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
         }
 
         animation-name: fade;
-        animation-duration: ${((fade + visible) * num)}s;
+        animation-duration: ${(fade + visible) * num}s;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
         animation-duration: normal;
@@ -40,7 +51,7 @@ const Fade = (num: number, fade: number, visible: number) => {
 
         ${childs}
     `;
-}
+};
 
 export const CarouselStyled = styled.section<CarouselStyled>`
     width: 100%;
@@ -62,9 +73,9 @@ export const CarouselStyled = styled.section<CarouselStyled>`
             top: 0;
             width: 100%;
             height: 100%;
-            background: black;
-            opacity: 0.3;
-            z-index: 1;
+            /* background: ${({ theme }) => theme.colors.black};
+            /* opacity: 0.3; */
+            z-index: ${zindex("base")};
         }
 
         &__item {
@@ -72,9 +83,10 @@ export const CarouselStyled = styled.section<CarouselStyled>`
             width: 100%;
             height: 100%;
             position: absolute;
-            opacity:0;
-            top:0;
-            ${({totalSlides, fadeDuration, visibleDuration}) => Fade(totalSlides, fadeDuration, visibleDuration)}
+            opacity: 0;
+            top: 0;
+            ${({ totalSlides, fadeDuration, visibleDuration }) =>
+                Fade(totalSlides, fadeDuration, visibleDuration)}
         }
 
         &__item-wrapper {
@@ -82,5 +94,5 @@ export const CarouselStyled = styled.section<CarouselStyled>`
             width: 100%;
             height: 100%;
         }
-     }
+    }
 `;
