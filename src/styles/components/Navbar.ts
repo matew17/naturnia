@@ -2,13 +2,14 @@ import styled from "styled-components";
 import { down } from "styled-breakpoints";
 
 import { ThemedProps } from "../theme";
+import { zindex } from "@styles/abstracts/functions";
 
 interface NavbarStyled extends ThemedProps {}
 
 export const NavbarStyled = styled.nav<NavbarStyled>`
     position: absolute;
     top: 0;
-    z-index: 1;
+    z-index: ${zindex('menu')};
     color: ${({ theme }) => theme.colors.white};
     background-color: ${({ theme }) => theme.colors.blackAlpha};
     display: flex;

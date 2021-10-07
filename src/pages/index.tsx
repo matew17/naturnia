@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 
             <section className="carousel">
                 <Navbar />
-                <Carousel />
+                <Carousel displayOverlay={false}/>
             </section>
 
             <section className="home-section soy-naturnia">

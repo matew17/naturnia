@@ -27,7 +27,11 @@ const slides = [
 const fadeDuration = 2;
 const visibleDuration = 4;
 
-const Carousel: React.FC = () => {
+interface CarouselProps {
+    displayOverlay?: boolean;
+}
+
+const Carousel: React.FC<CarouselProps> = ({ displayOverlay = true }) => {
     return (
         <CarouselStyled fadeDuration={fadeDuration} visibleDuration={visibleDuration} totalSlides={slides.length}>
             <div className="slider" aria-hidden="true">
@@ -41,7 +45,7 @@ const Carousel: React.FC = () => {
                         </div>
                     ))}
                 </div>
-                <div className="slider__overlay"></div>
+                { displayOverlay && <div className="slider__overlay"></div>}
             </div>
         </CarouselStyled>
     );
