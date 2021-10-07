@@ -1,9 +1,11 @@
+import React from "react";
+
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
 
+import { globals } from "@utils/constants";
 import { NavbarStyled } from "@styles/components/Navbar";
-import React from "react";
 
 interface NavbarProps {
     position?: string;
@@ -22,7 +24,8 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                             rel="noreferrer"
                         >
                             <Image
-                                src="/images/social-net/ig.png"
+                                src={`${globals.cloudinaryBaseUrl}v1633615417/naturnia/logos/ig.png`}
+                                alt="Instagram Logo"
                                 width="30"
                                 height="30"
                             ></Image>
@@ -42,10 +45,11 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                     >
                         <Link href="/catalogo">Catalogo</Link>
                     </li>
-                    <Link href="/">
+                    <Link href="/" passHref>
                         <div>
                             <Image
-                                src="/images/logos/logo-white.png"
+                                src={`${globals.cloudinaryBaseUrl}/v1633615397/naturnia/logos/logo-white.png`}
+                                alt="Logo de naturnia"
                                 width="200"
                                 height="150"
                             ></Image>

@@ -1,18 +1,20 @@
+import { globals } from "@utils/constants";
+
 export default {
     title: "Naturnia conectado con tu negocio",
     subtitle: "Que puedes hacer con nosotros:",
     items: [
         {
             desc: "Vender nuestros productos en tu tienda.",
-            image: "/images/connect/tienda.jpg",
+            image: `${globals.cloudinaryBaseUrl}v1633614991/naturnia/connect/tienda.jpg`,
         },
         {
             desc: "Regalos corporativos.",
-            image: "/images/connect/regalos.jpg",
+            image: `${globals.cloudinaryBaseUrl}v1633614993/naturnia/connect/regalos.jpg`,
         },
         {
             desc: "Sirve nuestros productos en tu restaurante.",
-            image: "/images/connect/sirve.jpg",
+            image: `${globals.cloudinaryBaseUrl}v1633614990/naturnia/connect/sirve.jpg`,
         },
     ],
     connect:

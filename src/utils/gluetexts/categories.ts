@@ -1,6 +1,8 @@
+import { globals } from "@utils/constants";
+
 export default [
     {
-        categoryImage: "/images/categories/salsas.jpg",
+        categoryImage: `${globals.cloudinaryBaseUrl}v1633615008/naturnia/categories/salsas.jpg`,
         categoryName: "Salsas de frutas",
         descriptionBody:
             "Deliciosa reducción de frutas provenientes de granjas agroecológicas, mezclada con panela orgánica, frutas deshidratadas y especias sin agua adicionada.",
@@ -18,7 +20,7 @@ export default [
         },
     },
     {
-        categoryImage: "/images/categories/infusiones.jpg",
+        categoryImage: `${globals.cloudinaryBaseUrl}v1633615336/naturnia/categories/infusiones.jpg`,
         categoryName: "Infusiones",
         descriptionBody:
             "Hierbas aromáticas deshidratadas en hornos solares con una mezcla alquímica de especias y frutas deshidratadas que elevan tus sentidos.",
@@ -36,7 +38,7 @@ export default [
         },
     },
     {
-        categoryImage: "/images/categories/labial.jpg",
+        categoryImage: `${globals.cloudinaryBaseUrl}v1633615007/naturnia/categories/labial.jpg`,
         categoryName: "Bálsamo labial",
         descriptionBody:
             "Cosmética 100% natural, cosecha agroecológica y extractos botánicos. Elaborado con Caléndula, Estragón, Romero, Cera de Abejas, Aceite de Oliva, Manteca de Cacao y Miel de Abejas. Cicatrizantes y nutrientes que regeneran las células de la piel, aportando hidratación, acción calmante y protectora contra agentes externos como el sol y el viento. Recomendado para labios secos, lastimados o sensibles.",

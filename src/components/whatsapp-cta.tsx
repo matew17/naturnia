@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { globals } from "../utils/constants";
+import { globals } from "@utils/constants";
 import { WhatsAppCTAStyled } from "@styles/components/WhatsAppCTA";
 
 type Props = {
@@ -15,7 +15,7 @@ const whatsApp: React.FC<Props> = ({ width = 20, height = 20 }) => {
         <WhatsAppCTAStyled>
             <a href={url} target="_blank" rel="noreferrer">
                 <Image
-                    src="/images/social-net/whatsapp.svg"
+                    src={`${globals.cloudinaryBaseUrl}v1633615417/naturnia/logos/whatsapp.svg`}
                     alt="Contactanos por whatsapp"
                     width={width}
                     height={height}
