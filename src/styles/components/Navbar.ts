@@ -6,6 +6,9 @@ import { ThemedProps } from "../theme";
 interface NavbarStyled extends ThemedProps {}
 
 export const NavbarStyled = styled.nav<NavbarStyled>`
+    position: absolute;
+    top: 0;
+    z-index: 1;
     color: ${({ theme }) => theme.colors.white};
     background-color: ${({ theme }) => theme.colors.blackAlpha};
     display: flex;

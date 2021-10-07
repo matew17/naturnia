@@ -12,7 +12,7 @@ export const HomeStyled = styled.section<HomeStyled>`
     }
 
     .carousel {
-        height: 80vh;
+        height: 100vh;
     }
 
     .soy-naturnia {

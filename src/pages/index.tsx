@@ -6,8 +6,9 @@ import Asociate from "@components/asociate";
 import Carousel from "@components/carousel";
 import Categorias from "@components/categorias";
 import Clientes from "@components/clientes";
-import SoyNaturnia from "@components/soy-naturnia";
 import Compra from "@components/compra";
+import Navbar from "@components/navbar";
+import SoyNaturnia from "@components/soy-naturnia";
 
 const Home: NextPage = () => {
     return (
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
             </Head>
 
             <section className="carousel">
+                <Navbar />
                 <Carousel />
             </section>
 

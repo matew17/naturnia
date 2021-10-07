@@ -5,7 +5,6 @@ import WhatsApp from "./whatsapp-cta";
 export default function Layout({ children }: any) {
     return (
         <>
-            <Navbar />
             <main>{children}</main>
             <WhatsApp width={60} height={60} />
             {/* <Footer /> */}
