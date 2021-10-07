@@ -3,11 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { NavbarStyled } from "@styles/components/Navbar";
+import React from "react";
 
-export default function Navbar() {
+interface NavbarProps {
+    position?: string;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ position }) => {
     const router = useRouter();
     return (
-        <NavbarStyled>
+        <NavbarStyled position={position}>
             <div className="menu">
                 <div className="menu__items">
                     <div className="menu__ig">
@@ -67,3 +72,5 @@ export default function Navbar() {
         </NavbarStyled>
     );
 }
+
+export default Navbar;

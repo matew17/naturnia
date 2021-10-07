@@ -23,7 +23,6 @@ const Home: NextPage = () => {
             </Head>
 
             <section className="carousel">
-                <Navbar />
                 <Carousel displayOverlay={false}/>
             </section>
 

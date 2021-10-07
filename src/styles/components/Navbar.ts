@@ -4,10 +4,12 @@ import { down } from "styled-breakpoints";
 import { ThemedProps } from "../theme";
 import { zindex } from "@styles/abstracts/functions";
 
-interface NavbarStyled extends ThemedProps {}
+interface NavbarStyled extends ThemedProps {
+    position?: string;
+}
 
 export const NavbarStyled = styled.nav<NavbarStyled>`
-    position: absolute;
+    position: ${({ position }) => position || 'relative'};
     top: 0;
     z-index: ${zindex('menu')};
     color: ${({ theme }) => theme.colors.white};
