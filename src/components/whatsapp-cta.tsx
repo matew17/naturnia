@@ -13,7 +13,7 @@ const whatsApp: React.FC<Props> = ({ width = 20, height = 20 }) => {
 
     return (
         <WhatsAppCTAStyled>
-            <a href={url} target="_blank">
+            <a href={url} target="_blank" rel="noreferrer">
                 <Image
                     src="/images/social-net/whatsapp.svg"
                     alt="Contactanos por whatsapp"

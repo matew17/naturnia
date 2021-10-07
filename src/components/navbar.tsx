@@ -19,6 +19,7 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                         <a
                             href="https://www.instagram.com/soynaturnia/"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <Image
                                 src="/images/social-net/ig.png"
@@ -71,6 +72,6 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
             </div>
         </NavbarStyled>
     );
-}
+};
 
 export default Navbar;

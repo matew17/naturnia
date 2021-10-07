@@ -10,7 +10,7 @@ const Clientes: React.FC = () => {
             <div className="clients">
                 {PageElements.items.map(({ desc, image, url }) => (
                     <div key={desc} className="clients__item">
-                        <a href={url} target="_blank">
+                        <a href={url} target="_blank" rel="noreferrer">
                             <div className="clients__item--image">
                                 <Image
                                     src={image}
