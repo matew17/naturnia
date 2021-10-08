@@ -2,10 +2,10 @@ import { globals } from "@utils/constants";
 
 export default {
     title: "Naturnia conectado con tu negocio",
-    subtitle: "Que puedes hacer con nosotros:",
+    subtitle: "Nuestras lineas de ventas",
     items: [
         {
-            desc: "Vender nuestros productos en tu tienda.",
+            desc: "Vende nuestros productos en tu tienda.",
             image: `${globals.cloudinaryBaseUrl}v1633614991/naturnia/connect/tienda.jpg`,
         },
         {
@@ -17,10 +17,10 @@ export default {
             image: `${globals.cloudinaryBaseUrl}v1633614990/naturnia/connect/sirve.jpg`,
         },
     ],
-    connect:
-        "Si estas interesado en una de estas opciones haga clic aca para conéctarse con",
+    connect: "Si estas interesado en una de estas opciones comunicate con",
     connectName: "Marcela Yepes",
     connectWorldEmabssor:
-        "la enlazadora de mundos, o haga clic en el boton de WhatsApp",
+        "la enlazadora de mundos a traves del boton de Llámame, o haga clic en el boton de WhatsApp",
     connectPhone: "+573122673240",
+    connectText: "Llámame!",
 };

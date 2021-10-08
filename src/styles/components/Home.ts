@@ -25,13 +25,17 @@ export const HomeStyled = styled.section<HomeStyled>`
     }
 
     .asociate {
-        background: ${({ theme }) => theme.colors.white};
         color: ${({ theme }) => theme.colors.tamarindo3};
     }
 
     .clients {
         background: ${({ theme }) => theme.colors.tamarindo};
         color: ${({ theme }) => theme.colors.white};
+    }
+
+    .compra {
+        background: ${({ theme }) => theme.colors.pantone};
+        color: ${({ theme }) => theme.colors.pantone2};
     }
 
     ${down("sm")} {

@@ -11,6 +11,7 @@ export const AsociateStyled = styled.section<AsociateStyled>`
     flex-flow: column;
     align-items: center;
     justify-content: flex-start;
+    /* background: ${({ theme }) => theme.colors.lulo}; */
 
     h1 {
         ${Font(50, 65, 0.5, 700)};
@@ -46,21 +47,30 @@ export const AsociateStyled = styled.section<AsociateStyled>`
 
         &__item--image {
             position: relative;
-            width: 420px;
-            height: 280px;
+            width: 380px;
+            height: 380px;
+
+            .img {
+                border-radius: 100%;
+            }
         }
     }
 
-    .disclaimer {
-        ${Font(36, 40, 0.5, 500)};
-        width: 80%;
-        border: 2px solid ${({ theme }) => theme.colors.tamarindo3};
-        padding: 24px;
-        margin: 0 auto;
+    .contact {
+        margin: 24px 0;
+        display: flex;
 
-        span {
-            ${Font(40, 36, 0.5, 700)};
-            color: ${({ theme }) => theme.colors.tamarindo};
+        &__item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+
+            p {
+                ${Font(40, 45, 0.5, 500)};
+                width: 70%;
+                margin: 36px 0;
+            }
         }
     }
 
@@ -78,8 +88,17 @@ export const AsociateStyled = styled.section<AsociateStyled>`
             }
 
             &__item--image {
-                width: 100%;
-                height: 350px;
+                width: 500px;
+                height: 500px;
+            }
+        }
+    }
+
+    ${down("sm")} {
+        .connect {
+            &__item--image {
+                width: 400px;
+                height: 400px;
             }
         }
     }

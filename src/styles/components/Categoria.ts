@@ -78,7 +78,6 @@ export const CategoriaStyled = styled.section<CategoriaStyled>`
 
     ${down("lg")} {
         height: 1300px;
-
         flex-flow: column;
 
         &.inverted {

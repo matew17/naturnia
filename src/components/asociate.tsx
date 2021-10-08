@@ -2,18 +2,20 @@ import Image from "next/image";
 
 import { AsociateStyled } from "@styles/components/Asociate";
 import PageElements from "@utils/gluetexts/connect";
+import { LinkButton } from "@styles/components/Button";
 
 const Asociate: React.FC = () => {
     return (
         <AsociateStyled>
-            <h1>{PageElements.title}</h1>
             <p>{PageElements.subtitle}</p>
+            <h1>{PageElements.title}</h1>
 
             <div className="connect">
                 {PageElements.items.map(({ desc, image }) => (
                     <div key={desc} className="connect__item">
                         <div className="connect__item--image">
                             <Image
+                                className="img"
                                 src={image}
                                 alt={desc}
                                 layout="fill"
@@ -25,13 +27,21 @@ const Asociate: React.FC = () => {
                 ))}
             </div>
 
-            <a href={`tel:${PageElements.connectPhone}`}>
-                <p className="disclaimer">
-                    {PageElements.connect}{" "}
-                    <span>{PageElements.connectName} </span>
-                    {PageElements.connectWorldEmabssor}
-                </p>
-            </a>
+            <div className="contact">
+                <div className="contact__item">
+                    <p>
+                        {PageElements.connect}{" "}
+                        <b>{PageElements.connectName} </b>
+                        {PageElements.connectWorldEmabssor}
+                    </p>
+                    <LinkButton
+                        primary
+                        href={`tel:${PageElements.connectPhone}`}
+                    >
+                        {PageElements.connectText}
+                    </LinkButton>
+                </div>
+            </div>
         </AsociateStyled>
     );
 };

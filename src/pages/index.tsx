@@ -23,7 +23,7 @@ const Home: NextPage = () => {
             </Head>
 
             <section className="carousel">
-                <Carousel displayOverlay={false}/>
+                <Carousel displayOverlay={false} />
             </section>
 
             <section className="home-section soy-naturnia">
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
                 <Clientes />
             </section>
 
-            <section className="home-section">
+            <section className="home-section compra">
                 <Compra />
             </section>
         </HomeStyled>
