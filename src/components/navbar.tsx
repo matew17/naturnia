@@ -6,7 +6,8 @@ import Link from "next/link";
 
 import { globals } from "@utils/constants";
 import { NavbarStyled } from "@styles/components/Navbar";
-
+import Logo from "@components/logo";
+import logosData from "@utils/gluetexts/logos";
 interface NavbarProps {
     position?: string;
 }
@@ -18,18 +19,13 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
             <div className="menu">
                 <div className="menu__items">
                     <div className="menu__ig">
-                        <a
-                            href="https://www.instagram.com/soynaturnia/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <Image
-                                src={`${globals.cloudinaryBaseUrl}v1633615417/naturnia/logos/ig.png`}
-                                alt="Instagram Logo"
-                                width="30"
-                                height="30"
-                            ></Image>
-                        </a>
+                        <Logo
+                            alt={logosData.ig.alt}
+                            height={logosData.ig.heigth}
+                            width={logosData.ig.width}
+                            url={logosData.ig.url}
+                            src={logosData.ig.src}
+                        />
                     </div>
                 </div>
             </div>

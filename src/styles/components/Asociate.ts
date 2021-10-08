@@ -97,8 +97,8 @@ export const AsociateStyled = styled.section<AsociateStyled>`
     ${down("sm")} {
         .connect {
             &__item--image {
-                width: 400px;
-                height: 400px;
+                width: 300px;
+                height: 300px;
             }
         }
     }

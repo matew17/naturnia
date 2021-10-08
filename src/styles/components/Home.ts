@@ -39,7 +39,8 @@ export const HomeStyled = styled.section<HomeStyled>`
     }
 
     ${down("sm")} {
-        .categories {
+        .home-section {
+            width: 100%;
             padding: 16px;
         }
     }

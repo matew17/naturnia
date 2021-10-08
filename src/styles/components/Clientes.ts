@@ -43,7 +43,24 @@ export const ClientesStyled = styled.section<ClientesStyled>`
             }
 
             &__item--image {
-                width: 75%;
+                width: 50%;
+                height: 450px;
+            }
+        }
+    }
+
+    ${down("lg")} {
+        h1 {
+            text-align: center;
+        }
+
+        .clients {
+            &__item {
+                margin: 24px 0;
+            }
+
+            &__item--image {
+                width: 100%;
                 height: 450px;
             }
         }
