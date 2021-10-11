@@ -11,6 +11,8 @@ export const Footer = styled.footer<Footer>`
     background: ${({ theme }) => theme.colors.pantone2};
     color: ${({ theme }) => theme.colors.white};
     padding: 60px 0;
+    justify-content: center;
+    align-items: center;
 
     .item {
         flex: 0.33;
@@ -30,39 +32,32 @@ export const Footer = styled.footer<Footer>`
             flex-flow: column;
 
             li {
-                ${Font(24, 28, 0.1, 700)};
+                ${Font(24, 28, 0.1, 400)};
                 margin: 8px 0;
                 text-align: center;
             }
         }
 
         &__contact {
-            margin: 24px 0 0 0;
-            width: 80%;
+            width: 100%;
+            text-align: center;
 
             p {
-                ${Font(30, 34, 0.1, 700)};
                 margin: 16px 0;
             }
 
             a {
-                margin: 0 8px;
                 ${Font(24, 28, 0.1, 500)};
             }
         }
     }
 
-    .item-end {
-        justify-content: flex-end;
-    }
-
-    ${down("lg")} {
+    ${down("md")} {
         flex-flow: column;
 
         .item {
-            &__contact {
-                width: 50%;
-                text-align: center;
+            &__logos {
+                width: 100%;
             }
         }
     }
@@ -70,7 +65,10 @@ export const Footer = styled.footer<Footer>`
     ${down("sm")} {
         .item {
             &__contact {
-                width: 80%;
+                p {
+                    ${Font(24, 26, 0.1, 700)};
+                    margin: 16px;
+                }
             }
         }
     }

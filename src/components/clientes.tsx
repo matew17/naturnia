@@ -8,10 +8,10 @@ const Clientes: React.FC = () => {
         <ClientesStyled>
             <h1>{PageElements.title}</h1>
             <div className="clients">
-                {PageElements.items.map(({ desc, image, url }) => (
+                {PageElements.items.map(({ desc, image, url, size }) => (
                     <div key={desc} className="clients__item">
                         <a href={url} target="_blank" rel="noreferrer">
-                            <div className="clients__item--image">
+                            <div className={`${size} clients__item--image`}>
                                 <Image
                                     src={image}
                                     alt={desc}

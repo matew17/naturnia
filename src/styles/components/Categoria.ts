@@ -32,13 +32,13 @@ export const CategoriaStyled = styled.section<CategoriaStyled>`
 
         &__description--title {
             p {
-                ${Font(24, 20, 0.2, 500)};
+                ${Font(24, 28, 0.2, 500)};
                 margin: 32px 0;
                 color: ${({ theme }) => theme.colors.pantone};
             }
 
             h1 {
-                ${Font(36, 20, 0.2, 700)};
+                ${Font(36, 38, 0.2, 700)};
                 color: ${({ theme }) => theme.colors.pantone2};
             }
         }
@@ -76,8 +76,8 @@ export const CategoriaStyled = styled.section<CategoriaStyled>`
         }
     }
 
-    ${down("lg")} {
-        height: 1300px;
+    ${down("md")} {
+        height: 850px;
         flex-flow: column;
 
         &.inverted {
@@ -91,8 +91,6 @@ export const CategoriaStyled = styled.section<CategoriaStyled>`
     }
 
     ${down("sm")} {
-        height: 2000px;
-
         .info {
             &__description {
                 padding: 24px;

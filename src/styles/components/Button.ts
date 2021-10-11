@@ -10,8 +10,8 @@ interface LinkButton extends ThemedProps {
 
 export const LinkButton = styled.a<LinkButton>`
     background: transparent;
-    color: ${({ theme }) => theme.colors.black};
-    border: 2px solid ${({ theme }) => theme.colors.black};
+    color: ${({ theme }) => theme.colors.white};
+    border: 2px solid ${({ theme }) => theme.colors.white};
     padding: 16px 24px;
     border-radius: 24px;
 

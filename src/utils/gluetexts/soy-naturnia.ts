@@ -4,16 +4,16 @@ export default {
     title: "Soy Naturnia",
     items: [
         {
-            desc: "Soy Organica",
-            image: `${globals.cloudinaryBaseUrl}v1633615383/naturnia/%22soy%22/tierra.png`,
+            // desc: "Soy Organica",
+            image: `${globals.cloudinaryBaseUrl}v1633963357/naturnia/%22soy%22/soyorganica.png`,
         },
         {
-            desc: "Soy Natural",
-            image: `${globals.cloudinaryBaseUrl}v1633615383/naturnia/%22soy%22/espiritu.png`,
+            // desc: "Soy Natural",
+            image: `${globals.cloudinaryBaseUrl}v1633963357/naturnia/%22soy%22/soynatural.png`,
         },
         {
-            desc: "Soy Local",
-            image: `${globals.cloudinaryBaseUrl}v1633615383/naturnia/%22soy%22/fuego.png`,
+            desc: "De Guarne Antioquia",
+            image: `${globals.cloudinaryBaseUrl}v1633963357/naturnia/%22soy%22/soylocal.png`,
         },
     ],
 };

@@ -11,10 +11,9 @@ export const AsociateStyled = styled.section<AsociateStyled>`
     flex-flow: column;
     align-items: center;
     justify-content: flex-start;
-    /* background: ${({ theme }) => theme.colors.lulo}; */
 
     h1 {
-        ${Font(50, 65, 0.5, 700)};
+        ${Font(50, 55, 0.5, 700)};
         text-align: center;
     }
 
@@ -32,9 +31,9 @@ export const AsociateStyled = styled.section<AsociateStyled>`
         align-items: center;
 
         &__item {
-            cursor: pointer;
             ${Font(30, 32, 0.5, 700)};
             flex: 0.33;
+            cursor: pointer;
             display: flex;
             flex-flow: column;
             align-items: center;
@@ -47,8 +46,8 @@ export const AsociateStyled = styled.section<AsociateStyled>`
 
         &__item--image {
             position: relative;
-            width: 380px;
-            height: 380px;
+            width: 320px;
+            height: 320px;
 
             .img {
                 border-radius: 100%;
@@ -74,7 +73,7 @@ export const AsociateStyled = styled.section<AsociateStyled>`
         }
     }
 
-    ${down("lg")} {
+    ${down("md")} {
         .connect {
             flex-wrap: wrap;
 
@@ -83,22 +82,43 @@ export const AsociateStyled = styled.section<AsociateStyled>`
                 margin: 60px 0;
 
                 p {
-                    ${Font(36, 30, 0.5, 700)};
+                    ${Font(36, 38, 0.5, 700)};
                 }
             }
 
             &__item--image {
-                width: 500px;
-                height: 500px;
+                width: 350px;
+                height: 350px;
             }
         }
     }
 
     ${down("sm")} {
+        h1 {
+            ${Font(40, 45, 0.5, 700)};
+            margin-top: 16px;
+        }
+
         .connect {
+            margin: 24px 0;
+
+            &__item {
+                margin: 24px 0;
+            }
+
             &__item--image {
                 width: 300px;
                 height: 300px;
+            }
+        }
+
+        .contact {
+            &__item {
+                p {
+                    margin: 24px 0;
+                    ${Font(32, 34, 0.5, 500)};
+                    width: 100%;
+                }
             }
         }
     }

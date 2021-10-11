@@ -9,12 +9,12 @@ const SoyNaturnia: React.FC = () => {
             <h1>{PageElements.title}</h1>
             <div className="soy">
                 {PageElements.items.map(({ desc, image }) => (
-                    <div key={desc} className="soy__item">
+                    <div key={image} className="soy__item">
                         <Image
                             src={image}
                             alt={desc}
-                            width="350px"
-                            height="350px"
+                            width="320px"
+                            height="320px"
                         />
                         <p>{desc}</p>
                     </div>

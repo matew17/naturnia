@@ -21,35 +21,21 @@ export const ClientesStyled = styled.section<ClientesStyled>`
         margin: 32px 0;
         flex-wrap: wrap;
         justify-content: space-around;
+        align-items: center;
 
         &__item--image {
             position: relative;
             width: 380px;
             height: 380px;
         }
-    }
 
-    ${down("lg")} {
-        .clients {
-            &__item {
-                min-width: 100%;
-                margin: 60px 0;
-
-                a {
-                    width: 100%;
-                    display: flex;
-                    justify-content: center;
-                }
-            }
-
-            &__item--image {
-                width: 50%;
-                height: 450px;
-            }
+        .sm {
+            width: 200px;
+            height: 200px;
         }
     }
 
-    ${down("lg")} {
+    ${down("md")} {
         h1 {
             text-align: center;
         }
@@ -59,9 +45,10 @@ export const ClientesStyled = styled.section<ClientesStyled>`
                 margin: 24px 0;
             }
 
-            &__item--image {
-                width: 100%;
-                height: 450px;
+            &__item--image,
+            .sm {
+                width: 250px;
+                height: 250px;
             }
         }
     }

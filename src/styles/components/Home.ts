@@ -21,7 +21,7 @@ export const HomeStyled = styled.section<HomeStyled>`
     }
 
     .categories {
-        background: ${({ theme }) => theme.colors.pantone};
+        background: ${({ theme }) => theme.colors.pantone2};
     }
 
     .asociate {
@@ -29,13 +29,12 @@ export const HomeStyled = styled.section<HomeStyled>`
     }
 
     .clients {
-        background: ${({ theme }) => theme.colors.tamarindo};
+        background: ${({ theme }) => theme.colors.araza1};
         color: ${({ theme }) => theme.colors.white};
     }
 
     .compra {
-        background: ${({ theme }) => theme.colors.pantone};
-        color: ${({ theme }) => theme.colors.pantone2};
+        background: ${({ theme }) => theme.colors.white};
     }
 
     ${down("sm")} {

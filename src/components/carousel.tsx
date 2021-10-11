@@ -5,23 +5,23 @@ import { globals } from "@utils/constants";
 const slides = [
     {
         id: "slide-1",
-        desktop: globals.cloudinaryBaseUrl + "v1633489779/naturnia/slide_1.jpg",
-        mobile: globals.cloudinaryBaseUrl + "v1633489779/naturnia/slide_1.jpg",
+        desktop: `${globals.cloudinaryBaseUrl}v1633963061/naturnia/slide_-05_bg.png`,
+        mobile: `${globals.cloudinaryBaseUrl}v1633963056/naturnia/slide_-05_sm.png`,
     },
     {
         id: "slide-2",
-        desktop: globals.cloudinaryBaseUrl + "v1633489247/naturnia/slide_2.jpg",
-        mobile: globals.cloudinaryBaseUrl + "v1633489247/naturnia/slide_2.jpg",
+        desktop: `${globals.cloudinaryBaseUrl}v1633489247/naturnia/slide_2.jpg`,
+        mobile: `${globals.cloudinaryBaseUrl}v1633489247/naturnia/slide_2.jpg`,
     },
     {
         id: "slide-3",
-        desktop: globals.cloudinaryBaseUrl + "v1633489247/naturnia/slide_3.jpg",
-        mobile: globals.cloudinaryBaseUrl + "v1633489247/naturnia/slide_3.jpg",
+        desktop: `${globals.cloudinaryBaseUrl}v1633489247/naturnia/slide_3.jpg`,
+        mobile: `${globals.cloudinaryBaseUrl}v1633489247/naturnia/slide_3.jpg`,
     },
     {
         id: "slide-4",
-        desktop: globals.cloudinaryBaseUrl + "v1633489247/naturnia/slide_4.jpg",
-        mobile: globals.cloudinaryBaseUrl + "v1633489247/naturnia/slide_4.jpg",
+        desktop: `${globals.cloudinaryBaseUrl}v1633489247/naturnia/slide_4.jpg`,
+        mobile: `${globals.cloudinaryBaseUrl}v1633489247/naturnia/slide_4.jpg`,
     },
 ];
 

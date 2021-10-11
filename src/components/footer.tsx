@@ -48,21 +48,21 @@ const footer: React.FC = () => {
                 </ul>
             </div>
 
-            <div className="item item-end">
+            <div className="item">
                 <div className="item__contact">
                     <p>
-                        Direccion:
-                        <a href="" target="_blank" rel="noreferrer">
-                            Planta de producción, Vereda Labriegos Guarne –
-                            Colombia
+                        <a
+                            href="https://goo.gl/maps/bZ3xHbeXkL7h3bQm6"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Vereda Labriegos, <br /> Guarne, Antioquia
                         </a>
                     </p>
                     <p>
-                        Telefono:
-                        <a href="tel:+573147073406">+57 314-707-3406</a>
+                        <a href="tel:+573147073406">(57) 314 707 3406</a>
                     </p>
                     <p>
-                        Email:
                         <a href="mailto:contacto@naturnia.com.co">
                             contacto@naturnia.com.co
                         </a>

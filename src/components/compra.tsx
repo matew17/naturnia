@@ -25,7 +25,6 @@ const Compra: React.FC = () => {
                     href={PageElements.url}
                     target="_blank"
                     rel="noreferrer"
-                    primary
                 >
                     {PageElements.btnText}
                 </LinkButton>

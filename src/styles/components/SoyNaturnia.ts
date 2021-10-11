@@ -21,22 +21,28 @@ export const SoyNaturniaStyled = styled.section<SoyNaturniaStyled>`
         margin: 32px 0;
 
         &__item {
+            ${Font(30, 32, 0.5, 700)};
             flex: 0.33;
             display: flex;
             flex-flow: column;
             align-items: center;
             justify-content: center;
-            ${Font(30, 32, 0.5, 700)};
+
+            p {
+                margin: 32px 0;
+            }
         }
     }
 
-    ${down("lg")} {
+    ${down("sm")} {
+        padding: 40px 0;
+
         .soy {
             flex-wrap: wrap;
 
             &__item {
+                margin: 0;
                 min-width: 100%;
-                margin: 60px 0;
             }
         }
     }

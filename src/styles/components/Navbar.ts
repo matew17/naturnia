@@ -9,11 +9,11 @@ interface NavbarStyled extends ThemedProps {
 }
 
 export const NavbarStyled = styled.nav<NavbarStyled>`
-    position: ${({ position }) => position || 'relative'};
+    position: ${({ position }) => position || "relative"};
     top: 0;
-    z-index: ${zindex('menu')};
+    z-index: ${zindex("menu")};
     color: ${({ theme }) => theme.colors.white};
-    background-color: ${({ theme }) => theme.colors.blackAlpha};
+    background-color: ${({ theme }) => theme.colors.pantone2}99;
     display: flex;
     align-items: center;
     justify-content: center;

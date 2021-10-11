@@ -8,6 +8,7 @@ import { globals } from "@utils/constants";
 import { NavbarStyled } from "@styles/components/Navbar";
 import Logo from "@components/logo";
 import logosData from "@utils/gluetexts/logos";
+
 interface NavbarProps {
     position?: string;
 }
