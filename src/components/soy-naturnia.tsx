@@ -15,6 +15,7 @@ const SoyNaturnia: React.FC = () => {
                             alt={desc}
                             width="320px"
                             height="320px"
+                            loading="eager"
                         />
                         <p>{desc}</p>
                     </div>

@@ -33,6 +33,7 @@ const footer: React.FC = () => {
                     src={`${globals.cloudinaryBaseUrl}v1633725873/naturnia/logos/logocolor.png`}
                     width={250}
                     height={200}
+                    loading="eager"
                 />
 
                 <ul className="item__list">

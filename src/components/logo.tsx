@@ -11,7 +11,13 @@ type Props = {
 const Logo: React.FC<Props> = ({ alt, src, url, width, height }) => {
     return (
         <a href={url} target="_blank" rel="noreferrer">
-            <Image src={src} alt={alt} width={width} height={height}></Image>
+            <Image
+                src={src}
+                alt={alt}
+                width={width}
+                height={height}
+                loading="eager"
+            ></Image>
         </a>
     );
 };
