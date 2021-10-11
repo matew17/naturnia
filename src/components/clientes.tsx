@@ -17,7 +17,7 @@ const Clientes: React.FC = () => {
                                     alt={desc}
                                     layout="fill"
                                     objectFit="contain"
-                                    priority={true}
+                                    loading="eager"
                                 />
                             </div>
                         </a>

@@ -16,7 +16,7 @@ const Logo: React.FC<Props> = ({ alt, src, url, width, height }) => {
                 alt={alt}
                 width={width}
                 height={height}
-                priority={true}
+                loading="eager"
             ></Image>
         </a>
     );

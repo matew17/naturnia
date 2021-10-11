@@ -59,7 +59,7 @@ const Categoria: React.FC<Props> = ({
                     alt={categoryName}
                     layout="fill"
                     objectFit="cover"
-                    priority={true}
+                    loading="eager"
                 />
             </div>
         </CategoriaStyled>

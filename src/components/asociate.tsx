@@ -20,7 +20,7 @@ const Asociate: React.FC = () => {
                                 alt={desc}
                                 layout="fill"
                                 objectFit="cover"
-                                priority={true}
+                                loading="eager"
                             />
                         </div>
                         <p>{desc}</p>
