@@ -49,7 +49,7 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                                 alt="Logo de naturnia"
                                 width="200"
                                 height="150"
-                                loading="eager"
+                                priority={true}
                             ></Image>
                         </div>
                     </Link>

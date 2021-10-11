@@ -13,7 +13,7 @@ const Compra: React.FC = () => {
                     alt={PageElements.paragraph}
                     layout="fill"
                     objectFit="cover"
-                    loading="eager"
+                    priority={true}
                 />
             </div>
 

@@ -19,7 +19,7 @@ const whatsApp: React.FC<Props> = ({ width = 20, height = 20 }) => {
                     alt="Contactanos por whatsapp"
                     width={width}
                     height={height}
-                    loading="eager"
+                    priority={true}
                 />
             </a>
         </WhatsAppCTAStyled>
