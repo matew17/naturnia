@@ -1,7 +1,12 @@
-import { createGlobalStyle } from 'styled-components';
-import { up, only } from 'styled-breakpoints';
+import { createGlobalStyle } from "styled-components";
+import { up, only } from "styled-breakpoints";
 
 export const GlobalStyle = createGlobalStyle`
+    @font-face {
+        font-family: Grafier;
+        src: url("/fonts/grafier/PPGrafier-Regular.otf") format("opentype");
+    }
+
     * {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
@@ -29,6 +34,12 @@ export const GlobalStyle = createGlobalStyle`
             font-family: Livvic, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
                 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
+
+            h1, h2, h3, h4, h5, h6, nav {
+                font-family: Grafier, Livvic, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+                    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; 
+            }
+
             h1 {
                 font-size: 2em;
             }
@@ -46,11 +57,11 @@ export const GlobalStyle = createGlobalStyle`
                 text-decoration: none;
             }
 
-            ${only('md')} {
+            ${only("md")} {
                 font-size: 18px;
             }
 
-            ${up('lg')} {
+            ${up("lg")} {
                 font-size: 20px;
             }
         }
