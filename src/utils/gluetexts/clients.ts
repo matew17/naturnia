@@ -30,7 +30,7 @@ export default {
         {
             url: "https://tienda.elmamm.org/",
             desc: "Tienda el mamm",
-            size: "lg",
+            size: "sm",
             image: `${globals.cloudinaryBaseUrl}v1634681389/naturnia/clients/tiendamamm.png`,
         },
         {
