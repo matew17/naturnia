@@ -19,8 +19,7 @@ export default {
     ],
     connect: "Si estas interesado en una de estas opciones comunicate con",
     connectName: "Marcela Yepes",
-    connectWorldEmabssor:
-        "la enlazadora de mundos a traves del boton de Llámame, o haga clic en el boton de WhatsApp",
-    connectPhone: "+573122673240",
-    connectText: "Llámame!",
+    connectWorldEmabssor: "la enlazadora de mundos dando clic en este boton.",
+    connectPhone: "+573218511824",
+    connectText: "Chatea conmigo!",
 };

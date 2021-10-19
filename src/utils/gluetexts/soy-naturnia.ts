@@ -16,4 +16,5 @@ export default {
             image: `${globals.cloudinaryBaseUrl}v1633963357/naturnia/%22soy%22/soylocal.png`,
         },
     ],
+    desc: "Nos conectamos con la esencia de las plantas transformándose en alimentos y cosmética natural para brindar bienestar a tu cuerpo y alma.",
 };

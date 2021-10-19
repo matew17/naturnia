@@ -37,7 +37,7 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
                 padding-top: 8px;
                 cursor: pointer;
                 text-align: center;
-                width: 120px;
+                width: 135px;
 
                 &:hover {
                     border-top: 2px solid ${({ theme }) => theme.colors.white};

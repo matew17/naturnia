@@ -21,6 +21,8 @@ const SoyNaturnia: React.FC = () => {
                     </div>
                 ))}
             </div>
+
+            <p className="desc">{PageElements.desc}</p>
         </SoyNaturniaStyled>
     );
 };

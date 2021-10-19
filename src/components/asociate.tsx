@@ -3,8 +3,11 @@ import Image from "next/image";
 import { AsociateStyled } from "@styles/components/Asociate";
 import PageElements from "@utils/gluetexts/connect";
 import { LinkButton } from "@styles/components/Button";
+import { globals } from "@utils/constants";
 
 const Asociate: React.FC = () => {
+    const connectUrl = `${globals.wsApiUrl}${PageElements.connectPhone}&amp;text=${globals.wsMessage}`;
+
     return (
         <AsociateStyled>
             <p>{PageElements.subtitle}</p>
@@ -37,7 +40,9 @@ const Asociate: React.FC = () => {
                     </p>
                     <LinkButton
                         primary
-                        href={`tel:${PageElements.connectPhone}`}
+                        href={`${connectUrl}`}
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         {PageElements.connectText}
                     </LinkButton>

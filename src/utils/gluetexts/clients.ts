@@ -28,23 +28,41 @@ export default {
             image: `${globals.cloudinaryBaseUrl}v1633615354/naturnia/clients/delolita.png`,
         },
         {
+            url: "https://tienda.elmamm.org/",
+            desc: "Tienda el mamm",
+            size: "lg",
+            image: `${globals.cloudinaryBaseUrl}v1634681389/naturnia/clients/tiendamamm.png`,
+        },
+        {
+            url: "https://www.instagram.com/lacteosbuenavista/?hl=es",
+            desc: "Lacteos buena Vista",
+            size: "lg",
+            image: `${globals.cloudinaryBaseUrl}v1634682190/naturnia/clients/lacteosbuenavista.png`,
+        },
+        {
+            url: "https://asadosdonarosa.com/",
+            desc: "Doña Rosa",
+            size: "lg",
+            image: `${globals.cloudinaryBaseUrl}v1634681389/naturnia/clients/don%CC%83arosa.png`,
+        },
+        {
             url: "https://frutosysemillas.com/",
             desc: "Frutos y semillas",
             size: "lg",
             image: `${globals.cloudinaryBaseUrl}v1633615355/naturnia/clients/frutosysemillas.png`,
         },
-        {
-            url: "https://saludpan.com/sitio/",
-            desc: "Salud Pan",
-            size: "lg",
-            image: `${globals.cloudinaryBaseUrl}v1633615355/naturnia/clients/saludpan.png`,
-        },
-        {
-            url: "https://www.elmercaditosaludable.com/",
-            desc: "El mercadito saludable",
-            size: "lg",
-            image: `${globals.cloudinaryBaseUrl}v1633615354/naturnia/clients/mercadito.png`,
-        },
+        // {
+        //     url: "https://saludpan.com/sitio/",
+        //     desc: "Salud Pan",
+        //     size: "lg",
+        //     image: `${globals.cloudinaryBaseUrl}v1633615355/naturnia/clients/saludpan.png`,
+        // },
+        // {
+        //     url: "https://www.elmercaditosaludable.com/",
+        //     desc: "El mercadito saludable",
+        //     size: "lg",
+        //     image: `${globals.cloudinaryBaseUrl}v1633615354/naturnia/clients/mercadito.png`,
+        // },
         {
             url: "https://lavato.com.co/",
             desc: "Lavato",

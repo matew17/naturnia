@@ -12,7 +12,14 @@ export const SoyNaturniaStyled = styled.section<SoyNaturniaStyled>`
     align-items: center;
 
     h1 {
-        ${Font(50, 40, 0.5, 700)};
+        ${Font(50, 54, 0.5, 700)};
+    }
+
+    .desc {
+        ${Font(40, 45, 0.5, 500)};
+        text-align: center;
+        margin: 60px 0 0 0;
+        max-width: 70%;
     }
 
     .soy {
@@ -27,9 +34,11 @@ export const SoyNaturniaStyled = styled.section<SoyNaturniaStyled>`
             flex-flow: column;
             align-items: center;
             justify-content: center;
+            position: relative;
 
             p {
-                margin: 32px 0;
+                position: absolute;
+                bottom: -45px;
             }
         }
     }

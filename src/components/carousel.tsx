@@ -20,8 +20,8 @@ const slides = [
     },
     {
         id: "slide-4",
-        desktop: `${globals.cloudinaryBaseUrl}v1633489247/naturnia/slide_4.jpg`,
-        mobile: `${globals.cloudinaryBaseUrl}v1633489247/naturnia/slide_4.jpg`,
+        desktop: `${globals.cloudinaryBaseUrl}v1634680548/naturnia/slide_6.jpg`,
+        mobile: `${globals.cloudinaryBaseUrl}v1634680548/naturnia/slide_6.jpg`,
     },
 ];
 
