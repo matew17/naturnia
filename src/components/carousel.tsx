@@ -50,7 +50,7 @@ const Carousel: React.FC<CarouselProps> = ({ displayOverlay = true }) => {
                                 />
                                 <img
                                     src={slide.mobile}
-                                    alt=""
+                                    alt={slide.id}
                                     className="slider__img"
                                 />
                             </picture>
