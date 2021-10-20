@@ -34,6 +34,7 @@ const footer: React.FC = () => {
                     width={250}
                     height={200}
                     loading="eager"
+                    alt="Logo Naturnia"
                 />
 
                 <ul className="item__list">
