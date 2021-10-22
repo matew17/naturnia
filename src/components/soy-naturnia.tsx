@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import { SoyNaturniaStyled } from "@styles/components/SoyNaturnia";
-import PageElements from "@utils/gluetexts/soy-naturnia";
+import { SoyNaturniaStyled } from "@styles/components/SoyNaturniaStyled";
+import PageElements from "@utils/gluetexts/soy-naturnia-keys";
 
 const SoyNaturnia: React.FC = () => {
     return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import { ClientesStyled } from "@styles/components/Clientes";
-import PageElements from "@utils/gluetexts/clients";
+import { ClientesStyled } from "@styles/components/ClientesStyled";
+import PageElements from "@utils/gluetexts/clients-keys";
 
 const Clientes: React.FC = () => {
     return (

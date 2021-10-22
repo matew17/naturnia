@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { CategoriaStyled } from "@styles/components/Categoria";
+import { CategoriaStyled } from "@styles/components/CategoriaStyled";
 
 type Props = {
     categoryImage: string;

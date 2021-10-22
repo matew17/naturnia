@@ -1,5 +1,5 @@
 import { breakpoints } from "@styles/abstracts/variables";
-import { CarouselStyled } from "@styles/components/Carousel";
+import { CarouselStyled } from "@styles/components/CarouselStyled";
 import { globals } from "@utils/constants";
 
 const slides = [

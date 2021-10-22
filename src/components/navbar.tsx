@@ -5,9 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { globals } from "@utils/constants";
-import { NavbarStyled } from "@styles/components/Navbar";
+import { NavbarStyled } from "@styles/components/NavbarStyled";
 import Logo from "@components/logo";
-import logosData from "@utils/gluetexts/logos";
+import logosData from "@utils/gluetexts/logos-keys";
 
 interface NavbarProps {
     position?: string;

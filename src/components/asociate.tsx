@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import { AsociateStyled } from "@styles/components/Asociate";
-import PageElements from "@utils/gluetexts/connect";
-import { LinkButton } from "@styles/components/Button";
+import { AsociateStyled } from "@styles/components/AsociateStyled";
+import PageElements from "@utils/gluetexts/connect-keys";
+import { LinkButton } from "@styles/components/LinkButtonStyled";
 import { globals } from "@utils/constants";
 
 const Asociate: React.FC = () => {

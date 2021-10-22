@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import { CompraStyled } from "@styles/components/Compra";
-import { LinkButton } from "@styles/components/Button";
-import PageElements from "@utils/gluetexts/compra";
+import { CompraStyled } from "@styles/components/CompraStyled";
+import { LinkButton } from "@styles/components/LinkButtonStyled";
+import PageElements from "@utils/gluetexts/compra-keys";
 
 const Compra: React.FC = () => {
     return (

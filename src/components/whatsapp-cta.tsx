@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { globals } from "@utils/constants";
-import { WhatsAppCTAStyled } from "@styles/components/WhatsAppCTA";
+import { WhatsAppCTAStyled } from "@styles/components/WhatsAppCTAStyled";
 
 type Props = {
     width?: number;

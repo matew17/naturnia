@@ -1,7 +1,7 @@
-import { CategoriasStyled } from "@styles/components/Categorias";
+import { CategoriasStyled } from "@styles/components/CategoriasStyled";
 
 import Categoria from "./categoria";
-import categories from "@utils/gluetexts/categories";
+import categories from "@utils/gluetexts/categories-keys";
 
 const Categorias: React.FC = () => {
     return (

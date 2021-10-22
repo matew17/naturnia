@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { Footer } from "@styles/components/Footer";
+import { Footer } from "@styles/components/FooterStyled";
 import { globals } from "@utils/constants";
 import Logo from "@components/logo";
-import logosData from "@utils/gluetexts/logos";
+import logosData from "@utils/gluetexts/logos-keys";
 
 const footer: React.FC = () => {
     return (

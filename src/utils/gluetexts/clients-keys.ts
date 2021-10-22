@@ -63,11 +63,11 @@ export default {
         //     size: "lg",
         //     image: `${globals.cloudinaryBaseUrl}v1633615354/naturnia/clients/mercadito.png`,
         // },
-        {
-            url: "https://lavato.com.co/",
-            desc: "Lavato",
-            size: "lg",
-            image: `${globals.cloudinaryBaseUrl}v1633615355/naturnia/clients/lavato.png`,
-        },
+        // {
+        //     url: "https://lavato.com.co/",
+        //     desc: "Lavato",
+        //     size: "lg",
+        //     image: `${globals.cloudinaryBaseUrl}v1633615355/naturnia/clients/lavato.png`,
+        // },
     ],
 };

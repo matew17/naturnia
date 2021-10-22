@@ -1,7 +1,7 @@
 import Head from "next/head";
 import type { NextPage } from "next";
 
-import { HomeStyled } from "@styles/components/Home";
+import { HomeStyled } from "@styles/components/HomeStyled";
 import Asociate from "@components/asociate";
 import Carousel from "@components/carousel";
 import Categorias from "@components/categorias";

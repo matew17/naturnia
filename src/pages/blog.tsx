@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import Instagram from "instagram-web-api";
 
-import { BlogStyled } from "@styles/components/Blog";
+import { BlogStyled } from "@styles/components/BlogStyled";
 
 const Blog = ({ igPosts }: any) => {
     const igUrl = "https://www.instagram.com";
