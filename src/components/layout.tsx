@@ -9,7 +9,7 @@ export default function Layout({ children }: any) {
 
     return (
         <>
-            <Navbar position={router.pathname === "/" ? "absolute" : ""} />
+            <Navbar position={router.pathname === "/" ? "fixed" : ""} />
             <main>{children}</main>
             <WhatsApp width={60} height={60} />
             <Footer />
