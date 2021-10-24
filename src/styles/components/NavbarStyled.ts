@@ -158,7 +158,6 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
             max-height: 500px;
             transform: scaleY(1); 
             transition: transform 0.3s ease, max-height 0.3s ease;
-            margin-top: 10px;
 
             li {
                 padding: 8px;
