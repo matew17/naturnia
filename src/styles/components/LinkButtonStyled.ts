@@ -33,6 +33,16 @@ export const LinkButton = styled.a<LinkButton>`
             }
         `}
 
+    ${({ secondary }) =>
+        secondary &&
+        css`
+            color: ${({ theme }) => theme.colors.white};
+
+            &:hover {
+                color: ${({ theme }) => theme.colors.whiteLight};
+            }
+        `}
+
     ${down("xs")} {
         padding: 8px 12px;
     }

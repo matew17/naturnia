@@ -3,8 +3,9 @@ import Image from "next/image";
 import type { NextPage } from "next";
 
 import { CatalogoStyled } from "@styles/components/CatalogoStyled";
-import PageElements from "@utils/gluetexts/catalogo-keys";
 import { LinkButton } from "@styles/components/LinkButtonStyled";
+import Compra from "@components/compra";
+import PageElements from "@utils/gluetexts/catalogo-keys";
 
 const Catalogo: NextPage = () => {
     const scrollToCategory = (id: string) => {
@@ -118,6 +119,10 @@ const Catalogo: NextPage = () => {
                     </section>
                 </section>
             ))}
+
+            <section className=" compra">
+                <Compra />
+            </section>
         </CatalogoStyled>
     );
 };

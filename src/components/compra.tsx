@@ -23,6 +23,7 @@ const Compra: React.FC = () => {
                     <h1>{PageElements.title}</h1>
                 </div>
                 <LinkButton
+                    secondary
                     href={PageElements.url}
                     target="_blank"
                     rel="noreferrer"

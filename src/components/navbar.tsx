@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
-import { useRouter } from 'next/router';
-import Image from 'next/image';
-import Link from 'next/link';
+import { useRouter } from "next/router";
+import Image from "next/image";
+import Link from "next/link";
 
-import { globals } from '@utils/constants';
-import { NavbarStyled } from '@styles/components/NavbarStyled';
-import Logo from '@components/logo';
-import logosData from '@utils/gluetexts/logos-keys';
+import { globals } from "@utils/constants";
+import { NavbarStyled } from "@styles/components/NavbarStyled";
+import Logo from "@components/logo";
+import logosData from "@utils/gluetexts/logos-keys";
 
 interface NavbarProps {
     position?: string;
@@ -24,10 +24,10 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
     };
 
     useEffect(() => {
-        addEventListener('scroll', handleOnScroll);
+        addEventListener("scroll", handleOnScroll);
 
         return () => {
-            removeEventListener('scroll', handleOnScroll);
+            removeEventListener("scroll", handleOnScroll);
         };
     }, []);
 
@@ -39,13 +39,13 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
         <NavbarStyled position={position}>
             <div
                 className={
-                    scrolled ? 'menu-wrapper menu--small' : 'menu-wrapper'
+                    scrolled ? "menu-wrapper menu--small" : "menu-wrapper"
                 }
             >
-                <div className='flex-container'>
-                    <div className='menu'>
-                        <div className='menu__items'>
-                            <div className='menu__ig'>
+                <div className="flex-container">
+                    <div className="menu">
+                        <div className="menu__items">
+                            <div className="menu__ig">
                                 <Logo
                                     alt={logosData.ig.alt}
                                     height={logosData.ig.heigth}
@@ -57,58 +57,66 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                         </div>
                     </div>
 
-                    <div className='menu-logo'>
+                    <div className="menu-logo">
                         <ul>
                             <li
                                 className={`hiden-mobile  menu__items--list 
                                         ${
-                                            router.asPath === '/catalogo' &&
-                                            'menu__items--active'
+                                            router.asPath === "/catalogo" &&
+                                            "menu__items--active"
                                         }`}
                             >
-                                <Link href='/catalogo'>Catalogo</Link>
+                                <Link href="/catalogo">Catalogo</Link>
                             </li>
-                            <Link href='/' passHref>
-                                <div className='menu-logo__img'>
+                            <Link href="/" passHref>
+                                <div className="menu-logo__img">
                                     <Image
                                         src={
                                             scrolled
                                                 ? `${globals.cloudinaryBaseUrl}/v1633615397/naturnia/logos/logo-three-white.png`
                                                 : `${globals.cloudinaryBaseUrl}/v1633615397/naturnia/logos/logo-white.png`
                                         }
-                                        alt='Logo de naturnia'
-                                        layout='fill'
-                                        loading='eager'
+                                        alt="Logo de naturnia"
+                                        layout="fill"
+                                        loading="eager"
                                     ></Image>
                                 </div>
                             </Link>
                             <li
                                 className={`hiden-mobile menu__items--list 
                                         ${
-                                            router.asPath === '/soy-naturnia' &&
-                                            'menu__items--active'
+                                            router.asPath === "/soy-naturnia" &&
+                                            "menu__items--active"
                                         }`}
                             >
-                                <Link href='/soy-naturnia'>Soy Naturnia</Link>
+                                <Link href="/soy-naturnia">Soy Naturnia</Link>
                             </li>
                         </ul>
                     </div>
 
-                    <div className='menu menu-right'>
-                        <div className='hiden-mobile  menu__items'>
+                    <div className="menu menu-right">
+                        <div className="hiden-mobile  menu__items">
                             <ul>
-                                <li className='menu__items--list'>Tienda </li>
+                                <li className="menu__items--list">
+                                    <a
+                                        href={globals.storeUrl}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        Tienda
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <button
-                            className='menu-right__button'
+                            className="menu-right__button"
                             onClick={handleButtonClick}
                         >
                             <Image
-                                src='/menu.png'
-                                alt='menu'
-                                layout='fill'
-                                color='white'
+                                src="/menu.png"
+                                alt="menu"
+                                layout="fill"
+                                color="white"
                             />
                         </button>
                     </div>
@@ -117,19 +125,25 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                 <div
                     className={
                         isMenuDisplay
-                            ? 'menu-mobile'
-                            : 'menu-mobile menu-mobile--hide'
+                            ? "menu-mobile"
+                            : "menu-mobile menu-mobile--hide"
                     }
                 >
                     <ul>
-                        <li>
-                            <Link href='/catalogo'>Catalogo</Link>
+                        <li onClick={handleButtonClick}>
+                            <Link href="/catalogo">Catalogo</Link>
                         </li>
-                        <li>
-                            <Link href='/soy-naturnia'>Soy Naturnia</Link>
+                        <li onClick={handleButtonClick}>
+                            <Link href="/soy-naturnia">Soy Naturnia</Link>
                         </li>
-                        <li>
-                            <Link href='/Tienda'>Tienda</Link>
+                        <li onClick={handleButtonClick}>
+                            <a
+                                href={globals.storeUrl}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Tienda
+                            </a>
                         </li>
                     </ul>
                 </div>

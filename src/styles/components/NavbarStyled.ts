@@ -1,6 +1,7 @@
-import styled from "styled-components";
 import { down } from "styled-breakpoints";
+import styled from "styled-components";
 
+import { Font } from "@styles/abstracts/mixins";
 import { ThemedProps } from "../theme";
 import { zindex } from "@styles/abstracts/functions";
 
@@ -43,7 +44,7 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
                 padding-top: 8px;
                 cursor: pointer;
                 text-align: center;
-                width: 120px;
+                width: 135px;
 
                 &:hover {
                     border-top: 2px solid ${({ theme }) => theme.colors.white};
@@ -146,21 +147,24 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                color: white;
+                color: ${({ theme }) => theme.colors.white};
                 width: 30px;
                 height: 30px;
             }
         }
 
         .menu-mobile {
+            ${Font(40, 45, 0.5, 500)};
             display: block;
             overflow: hidden;
-            max-height: 500px;
-            transform: scaleY(1); 
+            max-height: 100vh;
+            height: 100vh;
+            transform: scaleY(1);
             transition: transform 0.3s ease, max-height 0.3s ease;
+            background: ${({ theme }) => theme.colors.pantone2}99;
 
             li {
-                padding: 8px;
+                padding: 40px 0;
                 text-align: center;
             }
 
@@ -169,6 +173,5 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
                 transform: scaleY(0);
             }
         }
-
     }
 `;

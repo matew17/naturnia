@@ -45,7 +45,7 @@ export const CatalogoStyled = styled.section<CatalogoStyled>`
         padding: 16px;
         position: -webkit-sticky;
         position: sticky;
-        top: 0;
+        top: 58px;
         z-index: ${zindex("base")};
 
         &__btn {
@@ -147,6 +147,11 @@ export const CatalogoStyled = styled.section<CatalogoStyled>`
         border-radius: 4px;
     }
 
+    .compra {
+        width: 100%;
+        padding: 150px 60px;
+    }
+
     ${down("lg")} {
         .banner {
             &__title {
@@ -240,6 +245,10 @@ export const CatalogoStyled = styled.section<CatalogoStyled>`
             &__item--products--item {
                 min-width: 48%;
             }
+        }
+
+        .compra {
+            padding: 16px;
         }
     }
 
