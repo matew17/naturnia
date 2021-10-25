@@ -95,6 +95,7 @@ export const CatalogoStyled = styled.section<CatalogoStyled>`
         }
 
         &__item--description--text {
+            padding: 0 16px;
             text-align: center;
 
             h3 {
