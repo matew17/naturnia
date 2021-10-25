@@ -1,4 +1,5 @@
 export const colors: { [key: string]: string } = {
+    grey: "#d6d6d6",
     black: "#000",
     blackAlpha: "rgba(0,0 ,0, 0.8)",
     blackLight: "rgba(0,0 ,0, 0.2)",
@@ -27,6 +28,7 @@ export const colors: { [key: string]: string } = {
     luloAraza2: "#DAAB03",
     luloAraza3: "#6B5A17",
     white: "#FFF",
+    whiteLight: "hsla(0, 0%, 100%, 0.95)",
 };
 export const zindex: { [key: string]: number } = {
     base: 1,

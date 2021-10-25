@@ -1,6 +1,7 @@
 import "styled-components";
 
 interface Colors {
+    grey: string;
     black: string;
     blackAlpha: string;
     blackLight: string;
@@ -25,6 +26,7 @@ interface Colors {
     araza2: string;
     araza3: string;
     white: string;
+    whiteLight: string;
 }
 declare module "styled-components" {
     export interface DefaultTheme {
