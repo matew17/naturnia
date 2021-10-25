@@ -100,6 +100,8 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
     }
 
     .menu--small {
+        background-color: ${({ theme }) => theme.colors.pantone2}F2;
+
         .menu-logo__img {
             width: 50px;
             height: 50px;
@@ -161,7 +163,7 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
             height: 100vh;
             transform: scaleY(1);
             transition: transform 0.3s ease, max-height 0.3s ease;
-            background: ${({ theme }) => theme.colors.pantone2}99;
+            background: ${({ theme }) => theme.colors.pantone2}F2;
 
             li {
                 padding: 40px 0;

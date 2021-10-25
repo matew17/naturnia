@@ -10,7 +10,6 @@ export const ClientesStyled = styled.section<ClientesStyled>`
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1440px;
 
     h1 {
         ${Font(45, 54, 0.5, 700)};
