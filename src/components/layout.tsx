@@ -8,7 +8,7 @@ export default function Layout({ children }: any) {
     const router = useRouter();
     const absolutePositionRoutes = ["/", "/catalogo"];
     const position = absolutePositionRoutes.includes(router.pathname)
-        ? "absolute"
+        ? "fixed"
         : "";
 
     return (

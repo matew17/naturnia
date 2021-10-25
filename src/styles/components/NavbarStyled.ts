@@ -9,17 +9,23 @@ interface NavbarStyled extends ThemedProps {
 }
 
 export const NavbarStyled = styled.nav<NavbarStyled>`
-    position: ${({ position }) => position || "relative"};
-    top: 0;
-    z-index: ${zindex("menu")};
-    color: ${({ theme }) => theme.colors.white};
-    background-color: ${({ theme }) => theme.colors.pantone2}99;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    padding: 4px 0;
+    .menu-wrapper {
+        position: ${({ position }) => position || "relative"};
+        top: 0;
+        z-index: ${zindex("menu")};
+        color: ${({ theme }) => theme.colors.white};
+        background-color: ${({ theme }) => theme.colors.pantone2}99;
+        width: 100%;
+        height: auto;
+        padding: 4px 0;
+    }
+
+    .flex-container {
+        display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     .menu {
         flex: 0.25;
@@ -37,7 +43,7 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
                 padding-top: 8px;
                 cursor: pointer;
                 text-align: center;
-                width: 135px;
+                width: 120px;
 
                 &:hover {
                     border-top: 2px solid ${({ theme }) => theme.colors.white};
@@ -65,6 +71,10 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
             display: flex;
             justify-content: flex-end;
         }
+
+        &__button {
+            display: none;
+        }
     }
 
     .menu-logo {
@@ -79,6 +89,25 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
             align-items: center;
             justify-content: space-between;
         }
+
+        &__img {
+            position: relative;
+            width: 200px;
+            height: 150px;
+            transition: all 0.5s;
+        }
+    }
+
+    .menu--small {
+        .menu-logo__img {
+            width: 50px;
+            height: 50px;
+            transition: all 0.5s;
+        }
+    }
+
+    .menu-mobile {
+        display: none;
     }
 
     ${down("md")} {
@@ -102,6 +131,44 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
             ul {
                 justify-content: center;
             }
+
+            &__img {
+                width: 140px;
+                height: 100px;
+            }
         }
+
+        .menu-right {
+            justify-content: flex-end;
+
+            &__button {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .menu-mobile {
+            display: block;
+            overflow: hidden;
+            max-height: 500px;
+            transform: scaleY(1); 
+            transition: transform 0.3s ease, max-height 0.3s ease;
+
+            li {
+                padding: 8px;
+                text-align: center;
+            }
+
+            &--hide {
+                max-height: 0;
+                transform: scaleY(0);
+            }
+        }
+
     }
 `;
