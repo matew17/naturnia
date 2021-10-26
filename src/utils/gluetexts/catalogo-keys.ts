@@ -25,7 +25,7 @@ export default {
         {
             id: "salsas",
             name: "Salsas",
-            image: `${globals.cloudinaryBaseUrl}v1634923620/naturnia/catalogo/Banner.jpg`,
+            image: `${globals.cloudinaryBaseUrl}v1635289790/naturnia/catalogo/IMG_6689.jpg`,
             altImage: `${globals.cloudinaryBaseUrl}v1635179430/naturnia/catalogo/IMG_6916.jpg`,
             description:
                 "Salsa de frutas 3 usos 100% natural. Úsame para aromática, mermelada y aderezo.",
