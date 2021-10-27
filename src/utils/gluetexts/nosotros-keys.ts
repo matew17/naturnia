@@ -10,19 +10,19 @@ export default {
         desc: "En Naturnia, nuestros campesinos son guardianes de semillas nativas, cultivan sin químicos, actúan acorde con la agricultura biodinámica que está en los astros y les indica que hacer en cada momento. En nuestro taller de creación, ubicado en Guarne Antioquia, nuestra alquimista crea con sus manos recetas mágicas para ti, productos 100% artesanales sin aditivos ni conservantes. Creemos en las energías sutiles, al usar nuestros productos también llevas nuestra energía contigo. Por eso cuando estamos en el taller, lo hacemos con la mejor vibra y buena música.",
         org: {
             title: "Soy Organica",
-            image: `${globals.cloudinaryBaseUrl}v1633615008/naturnia/categories/salsas.jpg`,
+            image: `${globals.cloudinaryBaseUrl}v1635360349/naturnia/nosotros/IMG_6780.jpg`,
         },
         conc: {
             title: "Soy Conciente",
-            image: `${globals.cloudinaryBaseUrl}v1635355305/naturnia/nosotros/IMG_6752.jpg`,
+            image: `${globals.cloudinaryBaseUrl}v1635360347/naturnia/nosotros/IMG_6781.jpg`,
         },
         art: {
             title: "Soy Artesanal",
-            image: `${globals.cloudinaryBaseUrl}v1635355303/naturnia/nosotros/IMG_6702.jpg`,
+            image: `${globals.cloudinaryBaseUrl}v1635360345/naturnia/nosotros/IMG_6779.jpg`,
         },
         loc: {
             title: "Soy Local",
-            image: `${globals.cloudinaryBaseUrl}v1633615336/naturnia/categories/infusiones.jpg`,
+            image: `${globals.cloudinaryBaseUrl}v1635360344/naturnia/nosotros/IMG_6783.jpg`,
         },
     },
     team: {
