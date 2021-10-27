@@ -89,7 +89,7 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                                             "menu__items--active"
                                         }`}
                             >
-                                <Link href="/nosotros">Nosotros</Link>
+                                <Link href="/nosotros">Soy Naturnia</Link>
                             </li>
                         </ul>
                     </div>
@@ -134,7 +134,7 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                             <Link href="/catalogo">Catalogo</Link>
                         </li>
                         <li onClick={handleButtonClick}>
-                            <Link href="/nosotros">Nosotros</Link>
+                            <Link href="/nosotros">Soy Naturnia</Link>
                         </li>
                         <li onClick={handleButtonClick}>
                             <a
