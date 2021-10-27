@@ -40,6 +40,7 @@ export const CategoriaStyled = styled.section<CategoriaStyled>`
             h1 {
                 ${Font(36, 38, 0.2, 700)};
                 color: ${({ theme }) => theme.colors.pantone2};
+                cursor: pointer;
             }
         }
 

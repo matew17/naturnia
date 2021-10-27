@@ -35,6 +35,10 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
         isMenuDisplay ? setIsMenuDisplay(false) : setIsMenuDisplay(true);
     };
 
+    const hideMobileMenu = () => {
+        setIsMenuDisplay(false);
+    };
+
     return (
         <NavbarStyled position={position}>
             <div
@@ -69,7 +73,10 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                                 <Link href="/catalogo">Catalogo</Link>
                             </li>
                             <Link href="/" passHref>
-                                <div className="menu-logo__img">
+                                <div
+                                    onClick={hideMobileMenu}
+                                    className="menu-logo__img"
+                                >
                                     <Image
                                         src={
                                             scrolled
@@ -130,13 +137,13 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                     }
                 >
                     <ul>
-                        <li onClick={handleButtonClick}>
+                        <li onClick={hideMobileMenu}>
                             <Link href="/catalogo">Catalogo</Link>
                         </li>
-                        <li onClick={handleButtonClick}>
+                        <li onClick={hideMobileMenu}>
                             <Link href="/nosotros">Soy Naturnia</Link>
                         </li>
-                        <li onClick={handleButtonClick}>
+                        <li onClick={hideMobileMenu}>
                             <a
                                 href={globals.storeUrl}
                                 target="_blank"

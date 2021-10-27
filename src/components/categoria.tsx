@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { CategoriaStyled } from "@styles/components/CategoriaStyled";
 
@@ -30,7 +31,9 @@ const Categoria: React.FC<Props> = ({
                 <div className="info__description">
                     <div className="info__description--title">
                         <p>{title}</p>
-                        <h1>{categoryName}</h1>
+                        <Link href="/catalogo" passHref>
+                            <h1>{categoryName}</h1>
+                        </Link>
                     </div>
                     <p className="info__description--body">{descriptionBody}</p>
 

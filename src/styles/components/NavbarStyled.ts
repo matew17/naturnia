@@ -145,6 +145,7 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
             justify-content: flex-end;
 
             &__button {
+                cursor: pointer;
                 position: relative;
                 display: flex;
                 justify-content: center;
