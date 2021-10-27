@@ -6,7 +6,7 @@ import WhatsApp from "./whatsapp-cta";
 
 export default function Layout({ children }: any) {
     const router = useRouter();
-    const absolutePositionRoutes = ["/", "/catalogo"];
+    const absolutePositionRoutes = ["/", "/catalogo", "/nosotros"];
     const position = absolutePositionRoutes.includes(router.pathname)
         ? "fixed"
         : "";
