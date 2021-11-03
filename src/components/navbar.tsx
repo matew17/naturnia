@@ -110,7 +110,7 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        Tienda
+                                        Tienda aliada
                                     </a>
                                 </li>
                             </ul>
@@ -149,7 +149,7 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                Tienda
+                                Tienda aliada
                             </a>
                         </li>
                     </ul>

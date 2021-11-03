@@ -7,6 +7,7 @@ const Clientes: React.FC = () => {
     return (
         <ClientesStyled>
             <h1>{PageElements.title}</h1>
+            <h2>{PageElements.subtitle}</h2>
             <div className="clients">
                 {PageElements.items.map(({ desc, image, url, size }) => (
                     <div key={desc} className="clients__item">

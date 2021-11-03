@@ -1,7 +1,9 @@
 import "styled-components";
 
 interface Colors {
+    darkGrey: string;
     grey: string;
+    greyAlt: string;
     black: string;
     blackAlpha: string;
     blackLight: string;

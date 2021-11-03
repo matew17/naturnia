@@ -44,7 +44,7 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
                 padding-top: 8px;
                 cursor: pointer;
                 text-align: center;
-                width: 135px;
+                width: 140px;
 
                 &:hover {
                     border-top: 2px solid ${({ theme }) => theme.colors.white};
@@ -67,6 +67,8 @@ export const NavbarStyled = styled.nav<NavbarStyled>`
     }
 
     .menu-right {
+        position: relative;
+
         ul {
             flex: 1;
             display: flex;

@@ -17,7 +17,7 @@ const SoyNaturnia: React.FC = () => {
                             height="320px"
                             loading="eager"
                         />
-                        <p>{desc}</p>
+                        {/* <p>{desc}</p> */}
                     </div>
                 ))}
             </div>

@@ -111,7 +111,11 @@ const Catalogo: NextPage = () => {
                                         />
                                     </div>
                                     <p className="categories__item--products--text">
-                                        <span>{prod.name}</span> {prod.desc}
+                                        <span>
+                                            {prod.name}
+                                            <br />
+                                        </span>{" "}
+                                        {prod.desc}
                                     </p>
                                 </div>
                             ))}

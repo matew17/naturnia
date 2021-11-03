@@ -26,11 +26,11 @@ export const CatalogoStyled = styled.section<CatalogoStyled>`
             text-align: center;
 
             h1 {
-                ${Font(120, 130, 1, 700)};
+                ${Font(90, 110, 0.5, 500)};
             }
 
             h2 {
-                ${Font(60, 65, 1, 700)};
+                ${Font(50, 60, 0.5, 500)};
             }
         }
     }
@@ -135,7 +135,7 @@ export const CatalogoStyled = styled.section<CatalogoStyled>`
             ${Font(24, 28, 0.5, 500)};
             text-align: center;
             flex: 0.2;
-            padding: 16px 0;
+            padding: 24px 0;
 
             span {
                 ${Font(24, 28, 0.5, 700)};

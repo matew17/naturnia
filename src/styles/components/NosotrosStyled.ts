@@ -19,7 +19,7 @@ export const NosotrosStyled = styled.main<NosotrosStyled>`
         }
 
         &__title {
-            ${Font(80, 85, 1, 700)};
+            ${Font(80, 85, 0.5, 500)};
             color: ${({ theme }) => theme.colors.white};
         }
 
@@ -50,12 +50,12 @@ export const NosotrosStyled = styled.main<NosotrosStyled>`
 
     .about-text {
         color: ${({ theme }) => theme.colors.pantone2};
-        width: 50%;
+        max-width: 992px;
         margin: 5rem auto 15rem;
         text-align: center;
 
         p {
-            ${Font(40, 75, 1, 300)};
+            ${Font(40, 45, 0.5, 500)};
         }
     }
 
@@ -65,11 +65,11 @@ export const NosotrosStyled = styled.main<NosotrosStyled>`
         flex-flow: column;
         align-items: center;
         padding: 15rem 0;
-        background: ${({ theme }) => theme.colors.uchuva2};
+        background: ${({ theme }) => theme.colors.greyAlt};
         color: ${({ theme }) => theme.colors.white};
 
         h2 {
-            ${Font(60, 65, 1, 700)};
+            ${Font(60, 65, 1, 500)};
         }
     }
 
@@ -90,7 +90,7 @@ export const NosotrosStyled = styled.main<NosotrosStyled>`
             border-radius: 4px;
 
             p {
-                ${Font(35, 50, 1, 700)};
+                ${Font(35, 50, 1, 500)};
                 color: ${({ theme }) => theme.colors.white};
             }
 
@@ -118,7 +118,7 @@ export const NosotrosStyled = styled.main<NosotrosStyled>`
 
             &:nth-child(6) {
                 grid-area: soyArtesanalText;
-                background: ${({ theme }) => theme.colors.tamarindo3};
+                background: ${({ theme }) => theme.colors.lulo2};
             }
 
             &:nth-child(7) {
@@ -147,7 +147,7 @@ export const NosotrosStyled = styled.main<NosotrosStyled>`
         width: 60%;
 
         p {
-            ${Font(40, 65, 1, 300)};
+            ${Font(40, 45, 0.5, 500)};
         }
     }
 
@@ -198,10 +198,9 @@ export const NosotrosStyled = styled.main<NosotrosStyled>`
                 background: ${({ theme }) => theme.colors.white};
                 bottom: 16px;
                 left: 16px;
-                height: 30%;
-                width: 50%;
-                border-radius: 6px;
-                padding: 36px 16px;
+                height: 60px;
+                width: 40%;
+                padding: 16px;
             }
 
             span {
@@ -209,18 +208,17 @@ export const NosotrosStyled = styled.main<NosotrosStyled>`
             }
 
             &-name {
-                ${Font(32, 36, 0.5, 700)};
+                ${Font(24, 28, 0.5, 700)};
                 color: ${({ theme }) => theme.colors.pantone2};
-                margin-bottom: 5px;
             }
 
             &-rol {
-                ${Font(28, 32, 0.5, 500)};
+                ${Font(18, 22, 0.5, 500)};
                 color: ${({ theme }) => theme.colors.pantone};
             }
 
             &-presentation {
-                ${Font(28, 32, 0.5, 500)};
+                ${Font(24, 30, 0.5, 500)};
                 padding: 34px;
                 width: 100%;
             }

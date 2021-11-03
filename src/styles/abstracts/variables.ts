@@ -1,5 +1,7 @@
 export const colors: { [key: string]: string } = {
+    darkGrey: "#303230",
     grey: "#d6d6d6",
+    greyAlt: "#828080",
     black: "#000",
     blackAlpha: "rgba(0,0 ,0, 0.8)",
     blackLight: "rgba(0,0 ,0, 0.2)",

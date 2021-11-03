@@ -10,9 +10,16 @@ export const ClientesStyled = styled.section<ClientesStyled>`
     display: flex;
     flex-flow: column;
     align-items: center;
+    max-width: 992px;
+    justify-content: center;
+    margin: 0 auto;
 
     h1 {
-        ${Font(45, 54, 0.5, 700)};
+        ${Font(45, 60, 0.5, 700)};
+    }
+
+    h2 {
+        ${Font(45, 50, 0.5, 700)};
     }
 
     .clients {
@@ -25,8 +32,8 @@ export const ClientesStyled = styled.section<ClientesStyled>`
 
         &__item--image {
             position: relative;
-            width: 380px;
-            height: 380px;
+            width: 340px;
+            height: 340px;
         }
 
         .sm {

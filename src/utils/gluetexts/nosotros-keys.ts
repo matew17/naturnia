@@ -6,7 +6,7 @@ export default {
     acercaDe:
         "Naturnia la armonía con la naturaleza, el ser humano y aquello que es lo invisible. Nos conectamos con la esencia de las plantas transformándolas en alimentos y cosmética natural para brindar bienestar a tu cuerpo y alma.",
     values: {
-        title: "Nuestros valores",
+        title: "Soy Naturnia",
         desc: "En Naturnia, nuestros campesinos son guardianes de semillas nativas, cultivan sin químicos, actúan acorde con la agricultura biodinámica que está en los astros y les indica que hacer en cada momento. En nuestro taller de creación, ubicado en Guarne Antioquia, nuestra alquimista crea con sus manos recetas mágicas para ti, productos 100% artesanales sin aditivos ni conservantes. Creemos en las energías sutiles, al usar nuestros productos también llevas nuestra energía contigo. Por eso cuando estamos en el taller, lo hacemos con la mejor vibra y buena música.",
         org: {
             title: "Soy Organica",
@@ -31,7 +31,7 @@ export default {
             {
                 avatar: `${globals.cloudinaryBaseUrl}v1635355188/naturnia/nosotros/Marce.png`,
                 name: "Marcela",
-                role: "Co-Fundadora",
+                role: "Fundadora",
                 intro: "Hola soy Marce, amante de la naturaleza, la familia, la buena conversación con amigos alrededor de la comida. Vivo en una cabaña de madera en un bosque encantado en el Retiro Antioquia con mi pareja y dos gatitas que llenan mi corazón. Soy comercial de profesión y sicóloga por intuición… practico kundalini yoga, descubrí a través del canto de mantras mi conexión con lo infinito y también con mi voz. Me encanta conversar, tejer relaciones. En Naturnia soy enlazadora de mundos, conecto los productos que hace mi socia Alexa con ustedes...",
                 reversed: false,
             },

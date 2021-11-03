@@ -84,19 +84,19 @@ export default {
                 "plantas aromáticas libres de químicos, deshojadas a mano, deshidratadas en hornos solares artesanales con mezclas de frutas deshidratadas y especias.",
             products: [
                 {
-                    name: "Respira:",
+                    name: "Respira",
                     image: `${globals.cloudinaryBaseUrl}v1635173026/naturnia/catalogo/IMG_6824.jpg`,
-                    desc: "para relajarte",
+                    desc: "Para relajarte, Infusión 60 gr",
                 },
                 {
-                    name: "Renuévate:",
+                    name: "Renuévate",
                     image: `${globals.cloudinaryBaseUrl}v1635173025/naturnia/catalogo/IMG_6834.jpg`,
-                    desc: "activante",
+                    desc: "Activante, Infusión 60 gr",
                 },
                 {
-                    name: "Ligereza:",
+                    name: "Ligereza",
                     image: `${globals.cloudinaryBaseUrl}v1635173026/naturnia/catalogo/IMG_6817.jpg`,
-                    desc: "digestiva",
+                    desc: "Digestiva, Infusión 60 gr",
                 },
             ],
         },
