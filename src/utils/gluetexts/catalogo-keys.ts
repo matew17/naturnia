@@ -62,13 +62,13 @@ export default {
                 },
 
                 {
-                    name: "Kit",
+                    name: "Kit de regalo",
                     image: `${globals.cloudinaryBaseUrl}v1635172761/naturnia/catalogo/_MG_8377.jpg`,
                     desc: "salsas x 3 con endulzante",
                     bg: true,
                 },
                 {
-                    name: "Kit",
+                    name: "Kit de regalo",
                     image: `${globals.cloudinaryBaseUrl}v1635172761/naturnia/catalogo/_MG_8381.jpg`,
                     desc: "salsas x 3 sin endulzante",
                     bg: true,

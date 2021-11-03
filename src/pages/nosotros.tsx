@@ -139,9 +139,9 @@ const Nosotros: NextPage = () => {
                                     <span className="team__member-name">
                                         {member.name}
                                     </span>
-                                    <span className="team__member-rol">
+                                    {/* <span className="team__member-rol">
                                         {member.role}
-                                    </span>
+                                    </span> */}
                                 </div>
                             </div>
 

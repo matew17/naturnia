@@ -29,18 +29,18 @@ export default {
         title: "Nuestro Equipo",
         members: [
             {
-                avatar: `${globals.cloudinaryBaseUrl}v1635355188/naturnia/nosotros/Marce.png`,
-                name: "Marcela",
-                role: "Fundadora",
-                intro: "Hola soy Marce, amante de la naturaleza, la familia, la buena conversación con amigos alrededor de la comida. Vivo en una cabaña de madera en un bosque encantado en el Retiro Antioquia con mi pareja y dos gatitas que llenan mi corazón. Soy comercial de profesión y sicóloga por intuición… practico kundalini yoga, descubrí a través del canto de mantras mi conexión con lo infinito y también con mi voz. Me encanta conversar, tejer relaciones. En Naturnia soy enlazadora de mundos, conecto los productos que hace mi socia Alexa con ustedes...",
-                reversed: false,
-            },
-            {
                 avatar: `${globals.cloudinaryBaseUrl}v1635355187/naturnia/nosotros/Alexa.png`,
                 name: "Alexa",
                 role: "Fundadora",
                 intro: "Me llamo Alexa, soy mamá de dos hermosos hijos, Lúkas y Maria Clara. Aunque viví en Medellín hasta mis 20 años, siempre he sentido que el campo y la agricultura forman parte de mí esencia. Desde hace mas de 15 años, he tenido la fortuna de trabajar con comunidades campesinas, promoviendo una agricultura sana y natural; posteriormente mi inquietud por la alimentación saludable, me llevó a convertirme en unahacedora de diversas preparaciones, y a buscar maneras de darle a los alimentos sabor, color y belleza. Amo a Naturnia porque forma parte de mi estilo de vida, y además me permite compartir lo que hacemos, y lo que somos con la gente, así estamos en sintonía con la construcción de una nueva tierra consciente y sostenible.",
                 reversed: true,
+            },
+            {
+                avatar: `${globals.cloudinaryBaseUrl}v1635355188/naturnia/nosotros/Marce.png`,
+                name: "Marcela",
+                role: "Fundadora",
+                intro: "Hola soy Marce, amante de la naturaleza, la familia, la buena conversación con amigos alrededor de la comida. Vivo en una cabaña de madera en un bosque encantado en el Retiro Antioquia con mi pareja y dos gatitas que llenan mi corazón. Soy comercial de profesión y sicóloga por intuición… practico kundalini yoga, descubrí a través del canto de mantras mi conexión con lo infinito y también con mi voz. Me encanta conversar, tejer relaciones. En Naturnia soy enlazadora de mundos, conecto los productos que hace mi socia Alexa con ustedes...",
+                reversed: false,
             },
         ],
     },
