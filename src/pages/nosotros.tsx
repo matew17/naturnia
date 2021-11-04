@@ -132,6 +132,7 @@ const Nosotros: NextPage = () => {
                                         alt={member.name}
                                         layout="fill"
                                         objectFit="cover"
+                                        objectPosition={member.pos}
                                     ></Image>
                                 </div>
 

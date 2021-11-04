@@ -19,7 +19,7 @@ const Compra: React.FC = () => {
 
             <div className="info">
                 <div>
-                    <p>{PageElements.paragraph}</p>
+                    {/* <p>{PageElements.paragraph}</p> */}
                     <h1>{PageElements.title}</h1>
                 </div>
                 <LinkButton

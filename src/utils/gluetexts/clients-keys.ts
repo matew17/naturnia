@@ -1,7 +1,7 @@
 import { globals } from "@utils/constants";
 
 export default {
-    title: "Quienés ya hacen parte de Naturnia",
+    title: "Ya hacen parte de Naturnia",
     subtitle: "Conectados con la nueva tierra",
     items: [
         {

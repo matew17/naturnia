@@ -43,7 +43,7 @@ export const NosotrosStyled = styled.main<NosotrosStyled>`
         &__image {
             position: relative;
             width: 100%;
-            height: 80vh;
+            height: 500px;
             max-width: 50rem;
         }
     }
@@ -64,9 +64,8 @@ export const NosotrosStyled = styled.main<NosotrosStyled>`
         display: flex;
         flex-flow: column;
         align-items: center;
-        padding: 15rem 0;
-        background: ${({ theme }) => theme.colors.greyAlt};
-        color: ${({ theme }) => theme.colors.white};
+        padding: 0 0 15rem 0;
+        color: ${({ theme }) => theme.colors.pantone2};
 
         h2 {
             ${Font(60, 65, 1, 500)};

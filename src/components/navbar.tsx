@@ -70,7 +70,7 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                                             "menu__items--active"
                                         }`}
                             >
-                                <Link href="/catalogo">Catalogo</Link>
+                                <Link href="/catalogo">Catálogo</Link>
                             </li>
                             <Link href="/" passHref>
                                 <div
@@ -138,7 +138,7 @@ const Navbar: React.FC<NavbarProps> = ({ position }) => {
                 >
                     <ul>
                         <li onClick={hideMobileMenu}>
-                            <Link href="/catalogo">Catalogo</Link>
+                            <Link href="/catalogo">Catálogo</Link>
                         </li>
                         <li onClick={hideMobileMenu}>
                             <Link href="/nosotros">Soy Naturnia</Link>

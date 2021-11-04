@@ -2,7 +2,7 @@ import { globals } from "@utils/constants";
 
 export default {
     title: "Naturnia conectado con tu negocio",
-    subtitle: "Nuestras lineas de ventas",
+    subtitle: "Nuestros canales de ventas",
     items: [
         {
             desc: "Vende nuestros productos en tu tienda.",
@@ -17,9 +17,9 @@ export default {
             image: `${globals.cloudinaryBaseUrl}v1633614990/naturnia/connect/sirve.jpg`,
         },
     ],
-    connect: "Si estas interesado en una de estas opciones comunicate con",
+    connect: "Comunícate con",
     connectName: "Marcela Yepes",
-    connectWorldEmabssor: "la enlazadora de mundos dando clic en este boton.",
+    connectWorldEmabssor: "la enlazadora de mundos dando clic en este botón.",
     connectPhone: "+573218511824",
     connectText: "Chatea conmigo!",
 };

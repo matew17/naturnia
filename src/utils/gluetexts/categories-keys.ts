@@ -18,7 +18,7 @@ export default [
         categoryImage: `${globals.cloudinaryBaseUrl}v1633615336/naturnia/categories/infusiones.jpg`,
         categoryName: "Infusiones",
         descriptionBody:
-            "plantas aromáticas libres de químicos, deshojadas a mano, deshidratadas en hornos solares artesanales con mezclas de frutas y especias.",
+            "Plantas aromáticas libres de químicos, deshojadas a mano, deshidratadas en hornos solares artesanales con mezclas de frutas deshidratadas y especias.",
         // descriptionBodyAlt:
         //     "Elaboradas con hierbas provenientes de granjas agroecológicas. Deshidratamos las hojas sin tallos ni mezclas artesanalmente en hornos solares, garantizando una temperatura adecuada para conservar los aceites esenciales y sus propiedades físicas, químicas y organolépticas. Enriquecidas con una exquisita mezcla de frutas deshidratadas (Piña, Guayaba, Uchuva, Mango), también especias que aportan aromas y colores (Cúrcuma, Jengibre, Canela, Clavo); ingredientes orgánicos y de origen con propiedades terapéuticas y medicinales.",
         inverted: true,

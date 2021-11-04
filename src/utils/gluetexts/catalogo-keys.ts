@@ -41,7 +41,7 @@ export default {
                     desc: "Salsa de frutas 315gr",
                 },
                 {
-                    name: "Lulo arazá",
+                    name: "Lulo Arazá",
                     image: `${globals.cloudinaryBaseUrl}v1635172391/naturnia/catalogo/IMG_6874.jpg`,
                     desc: "Salsa de frutas 315gr",
                 },
@@ -64,13 +64,13 @@ export default {
                 {
                     name: "Kit de regalo",
                     image: `${globals.cloudinaryBaseUrl}v1635172761/naturnia/catalogo/_MG_8377.jpg`,
-                    desc: "salsas x 3 con endulzante",
+                    desc: "Salsas x 3 con endulzante",
                     bg: true,
                 },
                 {
                     name: "Kit de regalo",
                     image: `${globals.cloudinaryBaseUrl}v1635172761/naturnia/catalogo/_MG_8381.jpg`,
-                    desc: "salsas x 3 sin endulzante",
+                    desc: "Salsas x 3 sin endulzante",
                     bg: true,
                 },
             ],
@@ -81,22 +81,25 @@ export default {
             image: `${globals.cloudinaryBaseUrl}v1635172952/naturnia/catalogo/IMG_6717.jpg`,
             altImage: `${globals.cloudinaryBaseUrl}v1635179397/naturnia/catalogo/IMG_6852.jpg`,
             description:
-                "plantas aromáticas libres de químicos, deshojadas a mano, deshidratadas en hornos solares artesanales con mezclas de frutas deshidratadas y especias.",
+                "Plantas aromáticas libres de químicos, deshojadas a mano, deshidratadas en hornos solares artesanales con mezclas de frutas deshidratadas y especias.",
             products: [
                 {
                     name: "Respira",
                     image: `${globals.cloudinaryBaseUrl}v1635173026/naturnia/catalogo/IMG_6824.jpg`,
-                    desc: "Para relajarte, Infusión 60 gr",
+                    desc: "Relájate y percibe mejor los aromas de la naturaleza",
+                    present: "Infusión 60 gr",
                 },
                 {
                     name: "Renuévate",
                     image: `${globals.cloudinaryBaseUrl}v1635173025/naturnia/catalogo/IMG_6834.jpg`,
-                    desc: "Activante, Infusión 60 gr",
+                    desc: "Energizante natural, activa tu vida",
+                    present: "Infusión 60 gr",
                 },
                 {
                     name: "Ligereza",
                     image: `${globals.cloudinaryBaseUrl}v1635173026/naturnia/catalogo/IMG_6817.jpg`,
-                    desc: "Digestiva, Infusión 60 gr",
+                    desc: "Mejor digestión para tu día",
+                    present: "Infusión 60 gr",
                 },
             ],
         },
@@ -106,12 +109,12 @@ export default {
             image: `${globals.cloudinaryBaseUrl}v1635172869/naturnia/catalogo/Labiales.jpg`,
             altImage: `${globals.cloudinaryBaseUrl}v1635179509/naturnia/catalogo/IMG_6663.jpg`,
             description:
-                "humecta tus labios y protégelos del sol y del viento. Elaborado con caléndula, manzanilla y extractos botánicos 100% naturales.",
+                "Humecta tus labios y protégelos del sol y del viento. Elaborado con caléndula, manzanilla y extractos botánicos 100% naturales.",
             products: [
                 {
                     name: "Bálsamo:",
                     image: `${globals.cloudinaryBaseUrl}v1635173132/naturnia/catalogo/IMG_6886.jpg`,
-                    desc: "caléndula, manzanilla ",
+                    desc: "Caléndula, manzanilla ",
                 },
             ],
         },

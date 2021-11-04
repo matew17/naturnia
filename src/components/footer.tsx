@@ -42,7 +42,7 @@ const footer: React.FC = () => {
                         <Link href="/">Inicio</Link>
                     </li>
                     <li>
-                        <Link href="/catalogo">Catalogo</Link>
+                        <Link href="/catalogo">Catálogo</Link>
                     </li>
                     <li>
                         <Link href="/soy-naturnia">Soy Naturnia</Link>

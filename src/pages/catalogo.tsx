@@ -114,7 +114,11 @@ const Catalogo: NextPage = () => {
                                         <span>
                                             {prod.name}
                                             <br />
-                                        </span>{" "}
+                                        </span>
+
+                                        {prod.present}
+                                        <br />
+
                                         {prod.desc}
                                     </p>
                                 </div>
