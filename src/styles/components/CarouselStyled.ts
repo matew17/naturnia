@@ -1,7 +1,7 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
-import { ThemedProps } from '../theme';
-import { zindex } from '@styles/abstracts/functions';
+import { ThemedProps } from "../theme";
+import { zindex } from "@styles/abstracts/functions";
 
 interface CarouselStyled extends ThemedProps {
     fadeDuration: number;
@@ -12,7 +12,7 @@ interface CarouselStyled extends ThemedProps {
 const Fade = (num: number, fade: number, visible: number) => {
     const a = 100 / ((fade + visible) * num);
 
-    let childs = '';
+    let childs = "";
 
     for (let index = 1; index <= num; index++) {
         childs += `
@@ -27,13 +27,13 @@ const Fade = (num: number, fade: number, visible: number) => {
             0% {
                 opacity: 0;
             }
-            ${a * fade + '%'} {
+            ${a * fade + "%"} {
                 opacity: 1;
             }
-            ${a * (fade + visible) + '%'} {
+            ${a * (fade + visible) + "%"} {
                 opacity: 1;
             }
-            ${a * (fade + visible + fade) + '%'} {
+            ${a * (fade + visible + fade) + "%"} {
                 opacity: 0;
             }
             100% {
@@ -75,7 +75,7 @@ export const CarouselStyled = styled.section<CarouselStyled>`
             height: 100%;
             background: ${({ theme }) => theme.colors.black};
             opacity: 0.3;
-            z-index: ${zindex('base')};
+            z-index: ${zindex("base")};
         }
 
         &__item {

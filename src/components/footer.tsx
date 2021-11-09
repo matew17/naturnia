@@ -45,7 +45,7 @@ const footer: React.FC = () => {
                         <Link href="/catalogo">Catálogo</Link>
                     </li>
                     <li>
-                        <Link href="/soy-naturnia">Soy Naturnia</Link>
+                        <Link href="/nosotros">Soy Naturnia</Link>
                     </li>
                 </ul>
             </div>
