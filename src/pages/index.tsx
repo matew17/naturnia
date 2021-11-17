@@ -7,10 +7,21 @@ import Carousel from "@components/carousel";
 import Categorias from "@components/categorias";
 import Clientes from "@components/clientes";
 import Compra from "@components/compra";
-import Navbar from "@components/navbar";
 import SoyNaturnia from "@components/soy-naturnia";
 
+// import * as gtag from "@utils/gtag";
+
 const Home: NextPage = () => {
+    // const handleAnalyticEvent = (e: Event) => {
+    //     e.preventDefault();
+
+    //     gtag.event({
+    //         action: "nameOfAction",
+    //         category: "Category",
+    //         label: "",
+    //     });
+    // };
+
     return (
         <HomeStyled>
             <Head>
