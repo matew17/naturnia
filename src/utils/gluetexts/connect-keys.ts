@@ -20,6 +20,6 @@ export default {
     connect: "Comunícate con",
     connectName: "Alexandra Cardona",
     connectWorldEmabssor: "alquimista de sabores dando clic en este botón.",
-    connectPhone: "+573012308610",
+    connectPhone: "573012308610",
     connectText: "Chatea conmigo!",
 };
