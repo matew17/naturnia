@@ -65,6 +65,9 @@ const footer: React.FC = () => {
                         <a href="tel:+573147073406">(57) 314 707 3406</a>
                     </p>
                     <p>
+                        <a href="tel:+573012308610">(57) 301 230 8610</a>
+                    </p>
+                    <p>
                         <a href="mailto:contacto@naturnia.com.co">
                             contacto@naturnia.com.co
                         </a>

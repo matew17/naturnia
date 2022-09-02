@@ -2,7 +2,7 @@ import { globals } from "@utils/constants";
 
 export default {
     ig: {
-        url: "https://www.instagram.com/soynaturnia/",
+        url: "https://www.instagram.com/soy.naturnia/",
         src: `${globals.cloudinaryBaseUrl}v1633615417/naturnia/logos/ig.png`,
         alt: "Instagram Logo",
         width: 30,

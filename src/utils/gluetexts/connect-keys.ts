@@ -18,8 +18,8 @@ export default {
         },
     ],
     connect: "Comunícate con",
-    connectName: "Marcela Yepes",
-    connectWorldEmabssor: "la enlazadora de mundos dando clic en este botón.",
-    connectPhone: "+573218511824",
+    connectName: "Alexandra Cardona",
+    connectWorldEmabssor: "alquimista de sabores dando clic en este botón.",
+    connectPhone: "573012308610",
     connectText: "Chatea conmigo!",
 };
