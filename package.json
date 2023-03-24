@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "naturnia",
+=======
+  "name": "iriscol",
+>>>>>>> 5e871406fef14ba63d645c93be436775711082d4
   "version": "0.1.0",
   "private": true,
   "scripts": {

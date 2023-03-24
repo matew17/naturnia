@@ -5,17 +5,21 @@
     <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
     <url>
+<<<<<<< HEAD
         <loc>https://www.naturnia.com.co</loc>
+=======
+        <loc>https://www.iriscol.com/</loc>
+>>>>>>> 5e871406fef14ba63d645c93be436775711082d4
         <lastmod>2021-11-29T17:13:55+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://www.naturnia.com.co/catalogo</loc>
+        <loc>https://www.iriscol.com/catalogo</loc>
         <lastmod>2021-11-29T17:13:55+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://www.naturnia.com.co/nosotros</loc>
+        <loc>https://www.iriscol.com/nosotros</loc>
         <lastmod>2021-11-29T17:13:55+00:00</lastmod>
         <priority>0.80</priority>
     </url>
