@@ -1,6 +1,6 @@
-## Naturnia.com.co
+## iriscol
 
-Sitio web de Naturnia
+Sitio web de Iriscol
 
 ## Breakpoints
 
